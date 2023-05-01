@@ -12,9 +12,7 @@ dependencies:
   flutter:
     sdk: flutter
   image: ^4.0.15
-  logger: ^1.3.0
   path_provider: ^2.0.14
-  application_restart: ^0.0.1
   flutter_image_compress: ^1.1.3
   image_cropper: ^3.0.2
   image_picker: ^0.8.7+1
@@ -29,10 +27,8 @@ dependencies:
 
   flutter_native_splash: ^2.2.19
   get: ^4.6.5
-  dio: ^5.1.1
   whatsapp_stickers_exporter: ^1.0.0
   flutter_native_image: ^0.0.6+1
-  image_size_getter: ^2.1.2
   telegram_stickers_import: 
      git: https://github.com/RezaHeidary/telegram_stickers_import.git
   flutter_launcher_icons: ^0.13.1
