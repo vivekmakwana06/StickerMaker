@@ -1,0 +1,71 @@
+name: whatsapp_sticker_maker
+description: This app is for making stickers and adding them to the WhatsApp application
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image: ^4.0.15
+  logger: ^1.3.0
+  path_provider: ^2.0.14
+  application_restart: ^0.0.1
+  flutter_image_compress: ^1.1.3
+  image_cropper: ^3.0.2
+  image_picker: ^0.8.7+1
+  cupertino_icons: ^1.0.2
+  top_snackbar_flutter: ^3.0.0+1
+  dotted_border: ^2.0.0+3
+  get_storage: ^2.1.1
+  is_app_installed: ^0.0.4
+  flutter_phoenix: ^1.1.1
+  adivery: ^4.2.0 
+
+
+  flutter_native_splash: ^2.2.19
+  get: ^4.6.5
+  dio: ^5.1.1
+  whatsapp_stickers_exporter: ^1.0.0
+  flutter_native_image: ^0.0.6+1
+  image_size_getter: ^2.1.2
+  telegram_stickers_import: 
+     git: https://github.com/RezaHeidary/telegram_stickers_import.git
+  flutter_launcher_icons: ^0.13.1
+flutter_native_splash:
+
+  color: "#ffffff"
+
+  image: assets/forStart.png
+
+  android_12:
+
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/forStart.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  macos:
+    generate: true
+    image_path: "path/to/image.png"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
+  fonts:
+    - family: Sans
+      fonts:
+        - asset: assets/fonts/sans.ttf

@@ -1,0 +1,117 @@
+PODS:
+  - application_restart (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_image_compress (1.0.0):
+    - Flutter
+    - Mantle
+    - SDWebImage
+    - SDWebImageWebPCoder
+  - flutter_native_image (0.0.1):
+    - Flutter
+  - flutter_native_splash (0.0.1):
+    - Flutter
+  - image_cropper (0.0.4):
+    - Flutter
+    - TOCropViewController (~> 2.6.1)
+  - image_picker_ios (0.0.1):
+    - Flutter
+  - is_app_installed (0.0.1):
+    - Flutter
+  - libwebp (1.2.4):
+    - libwebp/demux (= 1.2.4)
+    - libwebp/mux (= 1.2.4)
+    - libwebp/webp (= 1.2.4)
+  - libwebp/demux (1.2.4):
+    - libwebp/webp
+  - libwebp/mux (1.2.4):
+    - libwebp/demux
+  - libwebp/webp (1.2.4)
+  - Mantle (2.2.0):
+    - Mantle/extobjc (= 2.2.0)
+  - Mantle/extobjc (2.2.0)
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - SDWebImage (5.15.6):
+    - SDWebImage/Core (= 5.15.6)
+  - SDWebImage/Core (5.15.6)
+  - SDWebImageWebPCoder (0.11.0):
+    - libwebp (~> 1.0)
+    - SDWebImage/Core (~> 5.15)
+  - telegram_stickers_import (0.0.1):
+    - Flutter
+    - TelegramStickersImport (~> 1.0.0)
+  - TelegramStickersImport (1.0.0)
+  - TOCropViewController (2.6.1)
+  - whatsapp_stickers_exporter (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - application_restart (from `.symlinks/plugins/application_restart/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_image_compress (from `.symlinks/plugins/flutter_image_compress/ios`)
+  - flutter_native_image (from `.symlinks/plugins/flutter_native_image/ios`)
+  - flutter_native_splash (from `.symlinks/plugins/flutter_native_splash/ios`)
+  - image_cropper (from `.symlinks/plugins/image_cropper/ios`)
+  - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
+  - is_app_installed (from `.symlinks/plugins/is_app_installed/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - telegram_stickers_import (from `.symlinks/plugins/telegram_stickers_import/ios`)
+  - whatsapp_stickers_exporter (from `.symlinks/plugins/whatsapp_stickers_exporter/ios`)
+
+SPEC REPOS:
+  trunk:
+    - libwebp
+    - Mantle
+    - SDWebImage
+    - SDWebImageWebPCoder
+    - TelegramStickersImport
+    - TOCropViewController
+
+EXTERNAL SOURCES:
+  application_restart:
+    :path: ".symlinks/plugins/application_restart/ios"
+  Flutter:
+    :path: Flutter
+  flutter_image_compress:
+    :path: ".symlinks/plugins/flutter_image_compress/ios"
+  flutter_native_image:
+    :path: ".symlinks/plugins/flutter_native_image/ios"
+  flutter_native_splash:
+    :path: ".symlinks/plugins/flutter_native_splash/ios"
+  image_cropper:
+    :path: ".symlinks/plugins/image_cropper/ios"
+  image_picker_ios:
+    :path: ".symlinks/plugins/image_picker_ios/ios"
+  is_app_installed:
+    :path: ".symlinks/plugins/is_app_installed/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  telegram_stickers_import:
+    :path: ".symlinks/plugins/telegram_stickers_import/ios"
+  whatsapp_stickers_exporter:
+    :path: ".symlinks/plugins/whatsapp_stickers_exporter/ios"
+
+SPEC CHECKSUMS:
+  application_restart: a45ee97feaa39541dec60ab632447eec07214c2d
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  flutter_image_compress: 5a5e9aee05b6553048b8df1c3bc456d0afaac433
+  flutter_native_image: 9c0b7451838484458e5b0fae007b86a4c2d4bdfe
+  flutter_native_splash: 52501b97d1c0a5f898d687f1646226c1f93c56ef
+  image_cropper: 60c2789d1f1a78c873235d4319ca0c34a69f2d98
+  image_picker_ios: 4a8aadfbb6dc30ad5141a2ce3832af9214a705b5
+  is_app_installed: b309e0504aaf250c07042180710da422550c09a7
+  libwebp: f62cb61d0a484ba548448a4bd52aabf150ff6eef
+  Mantle: c5aa8794a29a022dfbbfc9799af95f477a69b62d
+  path_provider_foundation: c68054786f1b4f3343858c1e1d0caaded73f0be9
+  SDWebImage: d47d81bea8a77187896b620dc79c3c528e8906b9
+  SDWebImageWebPCoder: 295a6573c512f54ad2dd58098e64e17dcf008499
+  telegram_stickers_import: 3068cecbd1bb501a7406a9404451b17b4e119f85
+  TelegramStickersImport: 804961343faf3ae36d6ab62988710bd4275a896f
+  TOCropViewController: edfd4f25713d56905ad1e0b9f5be3fbe0f59c863
+  whatsapp_stickers_exporter: 2bc5720770ed7173467d41149ea5d346805a22ec
+
+PODFILE CHECKSUM: 70d9d25280d0dd177a5f637cdb0f0b0b12c6a189
+
+COCOAPODS: 1.12.0
