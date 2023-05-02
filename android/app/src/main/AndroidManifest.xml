@@ -2,7 +2,7 @@
     package="com.arj.whatsapp_sticker_maker">
    <application
 
-        android:label="whatsapp_sticker_maker"
+        android:label="Sticker Maker"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
                 <provider
