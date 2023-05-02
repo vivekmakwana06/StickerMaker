@@ -14,4 +14,5 @@ class ValueTranslate {
   static String telegram = "Telegram";
   static String whatsApp = "ٌWhatsApp";
   static String which = "which";
+  static String notGifErr = "notGifErr";
 }

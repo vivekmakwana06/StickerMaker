@@ -8,6 +8,9 @@ import 'package:image/image.dart' as I;
 import 'package:image_cropper/image_cropper.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:path_provider/path_provider.dart';
+import 'package:whatsapp_sticker_maker/home/widget/home_widget.dart';
+
+import '../../value/my_str.dart';
 
 class HomeViewSetImageController extends GetxController {
   final images = [
@@ -25,7 +28,7 @@ class HomeViewSetImageController extends GetxController {
   List<String> sticker = [];
   TextEditingController textEditingController = TextEditingController();
 
-  picImage(source, int inedx) async {
+  picImage(source, int inedx, context) async {
     w8forImage.value = true;
 
     if (images[inedx].path.isNotEmpty) {
@@ -47,6 +50,7 @@ class HomeViewSetImageController extends GetxController {
 
     if (mimType == "gif" && source == ImageSource.gallery) {
       w8forImage.value = false;
+      HomeWidget.errSnackBar(ValueTranslate.notGifErr.tr, context);
 
       return;
     }

@@ -27,15 +27,6 @@ class HomeView extends StatelessWidget {
 
     var size = MediaQuery.of(context).size;
 
-    errSnackBar(String str) {
-      return showTopSnackBar(
-        Overlay.of(context),
-        CustomSnackBar.error(
-          message: str,
-        ),
-      );
-    }
-
     Future<void> showDialogForSetImage(index, context) async {
       return showModalBottomSheet(
           context: context,
@@ -50,7 +41,8 @@ class HomeView extends StatelessWidget {
               HomeWidget.widgetCameraOrGallery(
                 ValueTranslate.usecamera.tr,
                 onTap: () async {
-                  await homeViewController.picImage(ImageSource.camera, index);
+                  await homeViewController.picImage(
+                      ImageSource.camera, index, context);
                   Get.back();
                 },
                 Icons.camera_alt,
@@ -62,7 +54,8 @@ class HomeView extends StatelessWidget {
                 ValueTranslate.usegalray.tr,
                 Icons.image,
                 onTap: () async {
-                  await homeViewController.picImage(ImageSource.gallery, index);
+                  await homeViewController.picImage(
+                      ImageSource.gallery, index, context);
                   Get.back();
                 },
               ),
@@ -118,7 +111,7 @@ class HomeView extends StatelessWidget {
                     await sendStickerController
                         .installFromAssetsForWhatsApp(context);
                   } else {
-                    errSnackBar(ValueTranslate.errName.tr);
+                    HomeWidget.errSnackBar(ValueTranslate.errName.tr, context);
                   }
                 },
               ),
@@ -219,7 +212,7 @@ class HomeView extends StatelessWidget {
       if (homeViewController.selectImage >= 3) {
         selectionAppForAddSticker();
       } else {
-        errSnackBar(ValueTranslate.errImage.tr);
+        HomeWidget.errSnackBar(ValueTranslate.errImage.tr, context);
       }
     }
 
@@ -293,7 +286,9 @@ class HomeView extends StatelessWidget {
                         if (cannInstall == true) {
                           checkImage();
                         } else {
-                          errSnackBar(ValueTranslate.install.tr);
+                          // ignore: use_build_context_synchronously
+                          HomeWidget.errSnackBar(
+                              ValueTranslate.install.tr, context);
                         }
                       },
                     ),

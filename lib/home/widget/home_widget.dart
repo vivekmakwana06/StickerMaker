@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:top_snackbar_flutter/custom_snack_bar.dart';
+import 'package:top_snackbar_flutter/top_snack_bar.dart';
 
 import '../controller/send_sticker_controller.dart';
 
@@ -24,6 +26,15 @@ class HomeWidget {
             icon,
             size: 30,
           )),
+    );
+  }
+
+  static errSnackBar(String str, context) {
+    return showTopSnackBar(
+      Overlay.of(context),
+      CustomSnackBar.error(
+        message: str,
+      ),
     );
   }
 }

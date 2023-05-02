@@ -19,6 +19,7 @@ class Messages extends Translations {
           ValueTranslate.telegram: "Telegram",
           ValueTranslate.whatsApp: "whatsApp",
           ValueTranslate.which: "which one",
+          ValueTranslate.notGifErr: "Not Supported Gif ",
         },
         'fa_IR': {
           ValueTranslate.titleText: "استیکر",
@@ -35,6 +36,7 @@ class Messages extends Translations {
           ValueTranslate.telegram: "تلگرام",
           ValueTranslate.whatsApp: "واتساپ",
           ValueTranslate.which: "کدام یک",
+          ValueTranslate.notGifErr: "عکس با نوع گیف پشتیبانی نمیشود:( ",
         }
       };
 }
