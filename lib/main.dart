@@ -7,7 +7,7 @@ import 'package:whatsapp_sticker_maker/value/languegs/languegs.dart';
 import 'service/service.dart';
 
 Future<void> main() async {
-  await initilal();
+  await initial();
   await Get.find<MatrialAppService>().getInit();
   runApp(
     Phoenix(
@@ -16,7 +16,7 @@ Future<void> main() async {
   );
 }
 
-Future initilal() async {
+Future initial() async {
   Get.put(MatrialAppService());
 }
 
