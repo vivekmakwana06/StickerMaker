@@ -244,59 +244,62 @@ class HomeView extends StatelessWidget {
         title: Text(ValueTranslate.titleText.tr),
         centerTitle: true,
       ),
-      body: Stack(
-        children: [
-          Container(
-            width: size.width,
-            height: size.height,
-            decoration: const BoxDecoration(
-                image: DecorationImage(
-                    opacity: .5,
-                    image: AssetImage(
-                      "assets/whatsappback.png",
-                    ),
-                    fit: BoxFit.cover)),
-            child: GridView.builder(
-              physics: const ClampingScrollPhysics(),
-              itemCount: homeViewController.images.length,
-              scrollDirection: Axis.vertical,
-              gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                mainAxisSpacing: 2,
-                crossAxisCount: 3,
-                crossAxisSpacing: 0,
-                childAspectRatio: 1,
-              ),
-              itemBuilder: (BuildContext context, int index) {
-                return widgetImage(index);
-              },
-            ),
-          ),
-          homeViewController.w8forImage.value
-              ? const Center()
-              : Positioned(
-                  right: 10,
-                  left: 10,
-                  bottom: 10,
-                  child: ElevatedButton(
-                    style: const ButtonStyle(),
-                    child: Text(
-                      ValueTranslate.btnNavText.tr,
-                      style: const TextStyle(color: Colors.black),
-                    ),
-                    onPressed: () async {
-                      bool? cannInstall = TargetPlatform.iOS ==
-                              defaultTargetPlatform
-                          ? await IsAppInstalled.isAppInstalled("whatsapp://")
-                          : await IsAppInstalled.isAppInstalled("com.whatsapp");
-                      if (cannInstall == true) {
-                        checkImage();
-                      } else {
-                        errSnackBar(ValueTranslate.install.tr);
-                      }
-                    },
-                  ),
+      body: Obx(
+        () => Stack(
+          children: [
+            Container(
+              width: size.width,
+              height: size.height,
+              decoration: const BoxDecoration(
+                  image: DecorationImage(
+                      opacity: .5,
+                      image: AssetImage(
+                        "assets/whatsappback.png",
+                      ),
+                      fit: BoxFit.cover)),
+              child: GridView.builder(
+                physics: const ClampingScrollPhysics(),
+                itemCount: homeViewController.images.length,
+                scrollDirection: Axis.vertical,
+                gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                  mainAxisSpacing: 2,
+                  crossAxisCount: 3,
+                  crossAxisSpacing: 0,
+                  childAspectRatio: 1,
                 ),
-        ],
+                itemBuilder: (BuildContext context, int index) {
+                  return widgetImage(index);
+                },
+              ),
+            ),
+            homeViewController.w8forImage.value
+                ? const Center()
+                : Positioned(
+                    right: 10,
+                    left: 10,
+                    bottom: 10,
+                    child: ElevatedButton(
+                      style: const ButtonStyle(),
+                      child: Text(
+                        ValueTranslate.btnNavText.tr,
+                        style: const TextStyle(color: Colors.black),
+                      ),
+                      onPressed: () async {
+                        bool? cannInstall = TargetPlatform.iOS ==
+                                defaultTargetPlatform
+                            ? await IsAppInstalled.isAppInstalled("whatsapp://")
+                            : await IsAppInstalled.isAppInstalled(
+                                "com.whatsapp");
+                        if (cannInstall == true) {
+                          checkImage();
+                        } else {
+                          errSnackBar(ValueTranslate.install.tr);
+                        }
+                      },
+                    ),
+                  ),
+          ],
+        ),
       ),
     );
   }
