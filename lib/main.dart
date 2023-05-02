@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
       locale: matrialAppServies.getLanguegs(),
       title: 'sticker maker',
       theme: Themes.lightTheme,
-      home: HomeView(),
+      home: const HomeView(),
     );
   }
 }

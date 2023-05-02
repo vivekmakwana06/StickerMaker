@@ -9,8 +9,6 @@ import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:telegram_stickers_import/sticker.dart';
-import 'dart:io' as Io;
-import 'package:image/image.dart' as I;
 import 'package:telegram_stickers_import/sticker_data.dart';
 import 'package:telegram_stickers_import/sticker_set.dart';
 import 'package:telegram_stickers_import/telegram_stickers_import.dart';
@@ -136,14 +134,14 @@ class SendStickerController extends GetxController {
       if (getStorage.read("langueg") == "fa") {
         await getStorage.write("langueg", "en");
 
-        resetApp();
+        await resetApp();
       }
     } else {
       if (getStorage.read("langueg") == "en" ||
           getStorage.read("langueg") == null) {
         await getStorage.write("langueg", "fa");
 
-        resetApp();
+        await resetApp();
       }
     }
   }

@@ -3,7 +3,6 @@ import 'dart:developer';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_image_compress/flutter_image_compress.dart';
 import 'package:get/get.dart';
-import 'package:get_storage/get_storage.dart';
 import 'dart:io' as Io;
 import 'package:image/image.dart' as I;
 import 'package:image_cropper/image_cropper.dart';
@@ -11,17 +10,18 @@ import 'package:image_picker/image_picker.dart';
 import 'package:path_provider/path_provider.dart';
 
 class HomeViewSetImageController extends GetxController {
-  var images = [
+  final images = [
     Io.File(""),
     Io.File(""),
     Io.File(""),
   ].obs;
+
   Rx<bool> w8forImage = false.obs;
-  var checkImagePath = false.obs;
-  var isDelete = false.obs;
+  final checkImagePath = false.obs;
+  final isDelete = false.obs;
   String mimType = "";
-  int lodProgress = 0;
-  var selectImage = 0.obs;
+  Rx<int> lodProgress = 0.obs;
+  final selectImage = 0.obs;
   List<String> sticker = [];
   TextEditingController textEditingController = TextEditingController();
 
@@ -64,8 +64,8 @@ class HomeViewSetImageController extends GetxController {
 
     images[inedx] = imageRec;
     if (!checkImagePath.value && !isDelete.value) {
-      selectImage++;
-      if (selectImage > 2 && images.length < 9) {
+      selectImage.value++;
+      if (selectImage.value > 2 && images.length < 9) {
         images.add(Io.File(""));
       }
     }
