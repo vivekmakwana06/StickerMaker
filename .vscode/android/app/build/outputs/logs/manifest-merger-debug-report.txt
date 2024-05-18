@@ -1,0 +1,856 @@
+-- Merging decision tree log ---
+application
+INJECTED from D:\sticker-maker\sticker_maker\android\app\src\main\AndroidManifest.xml:3:4-47:19
+MERGED from [:image_picker_android] D:\sticker-maker\sticker_maker\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-19:19
+MERGED from [:image_picker_android] D:\sticker-maker\sticker_maker\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-19:19
+MERGED from [:url_launcher_android] D:\sticker-maker\sticker_maker\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-14:19
+MERGED from [:url_launcher_android] D:\sticker-maker\sticker_maker\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-14:19
+MERGED from [:flutter_photo_editor] D:\sticker-maker\sticker_maker\build\flutter_photo_editor\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
+MERGED from [:flutter_photo_editor] D:\sticker-maker\sticker_maker\build\flutter_photo_editor\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-15:19
+MERGED from [:telegram_stickers_import] D:\sticker-maker\sticker_maker\build\telegram_stickers_import\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-19:19
+MERGED from [:telegram_stickers_import] D:\sticker-maker\sticker_maker\build\telegram_stickers_import\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-19:19
+MERGED from [:whatsapp_stickers_exporter] D:\sticker-maker\sticker_maker\build\whatsapp_stickers_exporter\intermediates\merged_manifest\debug\AndroidManifest.xml:14:5-21:19
+MERGED from [:whatsapp_stickers_exporter] D:\sticker-maker\sticker_maker\build\whatsapp_stickers_exporter\intermediates\merged_manifest\debug\AndroidManifest.xml:14:5-21:19
+MERGED from [:photo_editor_sdk] D:\sticker-maker\sticker_maker\build\photo_editor_sdk\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-19:19
+MERGED from [:photo_editor_sdk] D:\sticker-maker\sticker_maker\build\photo_editor_sdk\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-19:19
+MERGED from [:imgly_sdk] D:\sticker-maker\sticker_maker\build\imgly_sdk\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-17:19
+MERGED from [:imgly_sdk] D:\sticker-maker\sticker_maker\build\imgly_sdk\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-17:19
+MERGED from [ly.img.android.sdk.ui.mobile_ui:camera:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\630219538ebf4f8204150f3d525a0646\transformed\jetified-camera-10.4.1\AndroidManifest.xml:24:5-31:19
+MERGED from [ly.img.android.sdk.ui.mobile_ui:camera:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\630219538ebf4f8204150f3d525a0646\transformed\jetified-camera-10.4.1\AndroidManifest.xml:24:5-31:19
+MERGED from [ly.img.android.sdk.ui.mobile_ui:photo-main:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\16cc8a445255a8bbb769aade1e191ebf\transformed\jetified-photo-main-10.4.1\AndroidManifest.xml:22:5-31:19
+MERGED from [ly.img.android.sdk.ui.mobile_ui:photo-main:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\16cc8a445255a8bbb769aade1e191ebf\transformed\jetified-photo-main-10.4.1\AndroidManifest.xml:22:5-31:19
+MERGED from [ly.img.android.sdk.ui.mobile_ui:all:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\a58a4b180f8c28526240dd41a626d11b\transformed\jetified-all-10.4.1\AndroidManifest.xml:24:5-33:19
+MERGED from [ly.img.android.sdk.ui.mobile_ui:all:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\a58a4b180f8c28526240dd41a626d11b\transformed\jetified-all-10.4.1\AndroidManifest.xml:24:5-33:19
+MERGED from [ly.img.android.sdk.ui.mobile_ui:video-main:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\ef6744919fa76384168ccd7233a0e55c\transformed\jetified-video-main-10.4.1\AndroidManifest.xml:22:5-30:19
+MERGED from [ly.img.android.sdk.ui.mobile_ui:video-main:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\ef6744919fa76384168ccd7233a0e55c\transformed\jetified-video-main-10.4.1\AndroidManifest.xml:22:5-30:19
+MERGED from [ly.img.android.sdk:core:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\87815842dc63489961b78367810ea64c\transformed\jetified-core-10.4.1\AndroidManifest.xml:34:5-40:19
+MERGED from [ly.img.android.sdk:core:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\87815842dc63489961b78367810ea64c\transformed\jetified-core-10.4.1\AndroidManifest.xml:34:5-40:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\vivek\.gradle\caches\transforms-3\c816db95db3cbcf6d4ba2c7cc166a660\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\vivek\.gradle\caches\transforms-3\c816db95db3cbcf6d4ba2c7cc166a660\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-base:18.2.0] C:\Users\vivek\.gradle\caches\transforms-3\19f93428161d4c62ad557b4a123f3eb4\transformed\jetified-play-services-base-18.2.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.2.0] C:\Users\vivek\.gradle\caches\transforms-3\19f93428161d4c62ad557b4a123f3eb4\transformed\jetified-play-services-base-18.2.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.play:review:2.0.1] C:\Users\vivek\.gradle\caches\transforms-3\d2467fb9bc69a6e2a0e5d3b5778a2771\transformed\jetified-review-2.0.1\AndroidManifest.xml:11:5-12:19
+MERGED from [com.google.android.play:review:2.0.1] C:\Users\vivek\.gradle\caches\transforms-3\d2467fb9bc69a6e2a0e5d3b5778a2771\transformed\jetified-review-2.0.1\AndroidManifest.xml:11:5-12:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\vivek\.gradle\caches\transforms-3\2ff8c18ae9c240174d655a40e4cdfa98\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\vivek\.gradle\caches\transforms-3\2ff8c18ae9c240174d655a40e4cdfa98\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\vivek\.gradle\caches\transforms-3\1fe21ea878d6b1d37676091d088c20dd\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\vivek\.gradle\caches\transforms-3\1fe21ea878d6b1d37676091d088c20dd\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\vivek\.gradle\caches\transforms-3\a098e1d92982bb797e09a931110dd08d\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\vivek\.gradle\caches\transforms-3\a098e1d92982bb797e09a931110dd08d\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\vivek\.gradle\caches\transforms-3\66642a4f7df7cc46028aa13f7d59b215\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\vivek\.gradle\caches\transforms-3\66642a4f7df7cc46028aa13f7d59b215\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\7fe04492079d1e189bc305723515de30\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\7fe04492079d1e189bc305723515de30\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.10.1] C:\Users\vivek\.gradle\caches\transforms-3\af20c76a6854b27506e7dcd603f8a9cc\transformed\core-1.10.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.10.1] C:\Users\vivek\.gradle\caches\transforms-3\af20c76a6854b27506e7dcd603f8a9cc\transformed\core-1.10.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\fd04ccb0411115035ac652f3b844ec3d\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\fd04ccb0411115035ac652f3b844ec3d\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:23:5-33:19
+MERGED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:48:5-73:19
+MERGED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:48:5-73:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vivek\.gradle\caches\transforms-3\6fd9329214a52f8941f7c0f98ccdbf77\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vivek\.gradle\caches\transforms-3\6fd9329214a52f8941f7c0f98ccdbf77\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vivek\.gradle\caches\transforms-3\913a9907e6c215b95b0d7d3b92e4b162\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vivek\.gradle\caches\transforms-3\913a9907e6c215b95b0d7d3b92e4b162\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vivek\.gradle\caches\transforms-3\6b925accbc861e151e2228552ff80642\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vivek\.gradle\caches\transforms-3\6b925accbc861e151e2228552ff80642\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\vivek\.gradle\caches\transforms-3\ddcfe56f730376d0cfc2d4bd15edc282\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\vivek\.gradle\caches\transforms-3\ddcfe56f730376d0cfc2d4bd15edc282\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.play:core-common:2.0.2] C:\Users\vivek\.gradle\caches\transforms-3\ae1d4bf6bd46b26e20397fc31dc997e3\transformed\jetified-core-common-2.0.2\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.android.play:core-common:2.0.2] C:\Users\vivek\.gradle\caches\transforms-3\ae1d4bf6bd46b26e20397fc31dc997e3\transformed\jetified-core-common-2.0.2\AndroidManifest.xml:11:5-19:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.10.1] C:\Users\vivek\.gradle\caches\transforms-3\af20c76a6854b27506e7dcd603f8a9cc\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+	android:largeHeap
+		ADDED from [ly.img.android.sdk.ui.mobile_ui:camera:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\630219538ebf4f8204150f3d525a0646\transformed\jetified-camera-10.4.1\AndroidManifest.xml:24:18-42
+	android:name
+		INJECTED from D:\sticker-maker\sticker_maker\android\app\src\main\AndroidManifest.xml
+provider#androidx.core.content.FileProvider
+INJECTED from D:\sticker-maker\sticker_maker\android\app\src\main\AndroidManifest.xml:8:17-16:20
+MERGED from [:telegram_stickers_import] D:\sticker-maker\sticker_maker\build\telegram_stickers_import\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+MERGED from [:telegram_stickers_import] D:\sticker-maker\sticker_maker\build\telegram_stickers_import\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+	android:authorities
+		INJECTED from D:\sticker-maker\sticker_maker\android\app\src\main\AndroidManifest.xml
+manifest
+ADDED from D:\sticker-maker\sticker_maker\android\app\src\main\AndroidManifest.xml:1:1-48:12
+INJECTED from D:\sticker-maker\sticker_maker\android\app\src\main\AndroidManifest.xml:1:1-48:12
+INJECTED from D:\sticker-maker\sticker_maker\android\app\src\main\AndroidManifest.xml:1:1-48:12
+INJECTED from D:\sticker-maker\sticker_maker\android\app\src\main\AndroidManifest.xml:1:1-48:12
+MERGED from D:\sticker-maker\sticker_maker\android\app\src\main\AndroidManifest.xml:1:1-48:12
+MERGED from [:adivery] D:\sticker-maker\sticker_maker\build\adivery\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:image_picker_android] D:\sticker-maker\sticker_maker\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-21:12
+MERGED from [:flutter_plugin_android_lifecycle] D:\sticker-maker\sticker_maker\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:image_gallery_saver] D:\sticker-maker\sticker_maker\build\image_gallery_saver\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_share] D:\sticker-maker\sticker_maker\build\flutter_share\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:in_app_review] D:\sticker-maker\sticker_maker\build\in_app_review\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:url_launcher_android] D:\sticker-maker\sticker_maker\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-16:12
+MERGED from [:path_provider_android] D:\sticker-maker\sticker_maker\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_image_editor] D:\sticker-maker\sticker_maker\build\flutter_image_editor\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_native_splash] D:\sticker-maker\sticker_maker\build\flutter_native_splash\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:image_cropper] D:\sticker-maker\sticker_maker\build\image_cropper\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:shared_preferences_android] D:\sticker-maker\sticker_maker\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_photo_editor] D:\sticker-maker\sticker_maker\build\flutter_photo_editor\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-17:12
+MERGED from [:telegram_stickers_import] D:\sticker-maker\sticker_maker\build\telegram_stickers_import\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-21:12
+MERGED from [:whatsapp_stickers_exporter] D:\sticker-maker\sticker_maker\build\whatsapp_stickers_exporter\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-23:12
+MERGED from [:photo_editor_sdk] D:\sticker-maker\sticker_maker\build\photo_editor_sdk\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-21:12
+MERGED from [:is_app_installed] D:\sticker-maker\sticker_maker\build\is_app_installed\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_image_compress] D:\sticker-maker\sticker_maker\build\flutter_image_compress\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:imgly_sdk] D:\sticker-maker\sticker_maker\build\imgly_sdk\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-19:12
+MERGED from [ly.img.android.sdk:config-loader:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\b875f2d03bcc307dfecd88da463633ab\transformed\jetified-config-loader-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.ui.mobile_ui:camera:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\630219538ebf4f8204150f3d525a0646\transformed\jetified-camera-10.4.1\AndroidManifest.xml:15:1-33:12
+MERGED from [ly.img.android.sdk.ui.mobile_ui:photo-main:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\16cc8a445255a8bbb769aade1e191ebf\transformed\jetified-photo-main-10.4.1\AndroidManifest.xml:15:1-33:12
+MERGED from [ly.img.android.sdk.ui.mobile_ui:all:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\a58a4b180f8c28526240dd41a626d11b\transformed\jetified-all-10.4.1\AndroidManifest.xml:15:1-35:12
+MERGED from [ly.img.android.sdk.ui.mobile_ui:adjustment:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\9182f50220158e9d35225bc7824d346d\transformed\jetified-adjustment-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.ui.mobile_ui:brush:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\4d822cd176a159bf7c568f2858bf642a\transformed\jetified-brush-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.ui.mobile_ui:filter:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\2c36b798753118dcad2443105ea6605f\transformed\jetified-filter-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.ui.mobile_ui:focus:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\9580014a9c596bdc997eab782d402c53\transformed\jetified-focus-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.assets:frame-basic:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\4acea48f0c2974862e33a7bf0781de5b\transformed\jetified-frame-basic-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.ui.mobile_ui:frame:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\52c5c31a0b601bbd0eaa0a571b9afed0\transformed\jetified-frame-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.assets:overlay-basic:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\f41d2f488547121ddbaf3a56a4fa8f15\transformed\jetified-overlay-basic-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.ui.mobile_ui:overlay:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\d9fa84fe972ce6ba1bc14e4e3d769804\transformed\jetified-overlay-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.ui.mobile_ui:giphy-sticker:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\84e562f19a834f852f391afa6ad9d438\transformed\jetified-giphy-sticker-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.ui.mobile_ui:sticker:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\caddde361903450b05fb94fa8b04d189\transformed\jetified-sticker-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.assets:font-basic:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\9ccfac3387bcbf46523d19b1f9504374\transformed\jetified-font-basic-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.ui.mobile_ui:text-design:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\ba22a126c5313be8b71a9d31491dfc89\transformed\jetified-text-design-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.operation:text-design:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\d260403edf51d52e07889f806031cd06\transformed\jetified-text-design-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.assets:font-text-design:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\7a951e17ee6fd7c309d214888bf00dd1\transformed\jetified-font-text-design-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.assets:font-shared:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\ae1538abb482b60c8fa06cd175abc432\transformed\jetified-font-shared-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.ui.mobile_ui:text:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\4d1450dd5c5ebed102f821f846051ae7\transformed\jetified-text-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.ui.mobile_ui:transform:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\e7203b5cc8457d2b82342fef7e011701\transformed\jetified-transform-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.ui.mobile_ui:video-main:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\ef6744919fa76384168ccd7233a0e55c\transformed\jetified-video-main-10.4.1\AndroidManifest.xml:15:1-32:12
+MERGED from [ly.img.android.sdk.ui.mobile_ui:video-composition:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\3cb8d9a2befd05b4891d3b965563859a\transformed\jetified-video-composition-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.ui.mobile_ui:audio-composition:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\6e55d6104b30fd94ae6f87345d363f40\transformed\jetified-audio-composition-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.ui.mobile_ui:video-library:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\6625509311db40dd42d67d123ee63b75\transformed\jetified-video-library-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.ui.mobile_ui:sprite-duration:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\e4369ad8c43bbd157c0c8a5ddaf733c7\transformed\jetified-sprite-duration-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.ui.mobile_ui:video-trim:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\55c9defb17487ba04a5df38d8a8f56a4\transformed\jetified-video-trim-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.ui.mobile_ui:core:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\03eddb9bbf38faf28954a55d633a4131\transformed\jetified-core-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.operation:photo-core:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\f2abf7503d9193332470269ceb8c9788\transformed\jetified-photo-core-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.assets:filter-basic:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\b33c870c1881ef71d8e4f58724b28b5c\transformed\jetified-filter-basic-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.assets:sticker-emoticons:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\635ead5e8f55dc932e04f8375f443e04\transformed\jetified-sticker-emoticons-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.assets:sticker-shapes:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\57e9b1a8e93d5158305445b0b05c477f\transformed\jetified-sticker-shapes-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.assets:sticker-animated:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\46eec2d1f30c480edc162597e479ab5d\transformed\jetified-sticker-animated-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.operation:sticker:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\7108a8eaa93ae97d455e9f77939e45d2\transformed\jetified-sticker-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.operation:text:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\a2915c39084408f4eb8d077a31cab943\transformed\jetified-text-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.operation:sticker-animated:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\1a9a16f16fd5f7dba9b5352eb6e4e507\transformed\jetified-sticker-animated-10.4.1\AndroidManifest.xml:15:1-24:12
+MERGED from [ly.img.android.sdk.operation:abstract-sticker:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\e21bc75d911e3bd067c7929dd0b218ae\transformed\jetified-abstract-sticker-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.operation:adjustment:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\8c76807129a354ea4987ee38dc8ed7fa\transformed\jetified-adjustment-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.operation:brush:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\569cb6dd9ced6e0e752254f9a71c2f6c\transformed\jetified-brush-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.operation:camera:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\69e68c7170784f82e694e8d1963022ff\transformed\jetified-camera-10.4.1\AndroidManifest.xml:15:1-28:12
+MERGED from [ly.img.android.sdk.operation:filter:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\fb95045057a6e25a476a0ac79a54e7cd\transformed\jetified-filter-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.operation:focus:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\e3cbf608a675bf53574259b9aaab182b\transformed\jetified-focus-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.operation:frame:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\fdd442f72bdb766c1797b79c191c1eeb\transformed\jetified-frame-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.operation:overlay:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\1002719fcec1eac54d9264697252093a\transformed\jetified-overlay-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk.operation:video-core:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\782d1c628c53707e37873305cb89de8e\transformed\jetified-video-core-10.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [ly.img.android.sdk:core:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\87815842dc63489961b78367810ea64c\transformed\jetified-core-10.4.1\AndroidManifest.xml:15:1-42:12
+MERGED from [com.github.yalantis:ucrop:2.2.8] C:\Users\vivek\.gradle\caches\transforms-3\119fd2522e0bc7eb609e2d27ee119943\transformed\jetified-ucrop-2.2.8\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\vivek\.gradle\caches\transforms-3\c816db95db3cbcf6d4ba2c7cc166a660\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\vivek\.gradle\caches\transforms-3\eeb9c9a46b5580293184fa8105039dc1\transformed\appcompat-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:18.2.0] C:\Users\vivek\.gradle\caches\transforms-3\19f93428161d4c62ad557b4a123f3eb4\transformed\jetified-play-services-base-18.2.0\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.play:review:2.0.1] C:\Users\vivek\.gradle\caches\transforms-3\d2467fb9bc69a6e2a0e5d3b5778a2771\transformed\jetified-review-2.0.1\AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\vivek\.gradle\caches\transforms-3\2ff8c18ae9c240174d655a40e4cdfa98\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\vivek\.gradle\caches\transforms-3\1fe21ea878d6b1d37676091d088c20dd\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\vivek\.gradle\caches\transforms-3\a098e1d92982bb797e09a931110dd08d\transformed\jetified-glide-4.12.0\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\vivek\.gradle\caches\transforms-3\bc58aeac915f1901712b6ae9730b5f27\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.7.2] C:\Users\vivek\.gradle\caches\transforms-3\2b56b4a2845ef313451f82a4da95a5b9\transformed\jetified-activity-1.7.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.5.0] C:\Users\vivek\.gradle\caches\transforms-3\0e96c4df32a8783c30a0356a126fa818\transformed\browser-1.5.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\vivek\.gradle\caches\transforms-3\8b5b1bc07f91dd694243d5b18907201b\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\vivek\.gradle\caches\transforms-3\e0160233d02ae028657f87599ff44174\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\09e956b959c954b26235581ca3e9277f\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.0] C:\Users\vivek\.gradle\caches\transforms-3\226374ce2e5bd7e7a011defe04db838e\transformed\jetified-appcompat-resources-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\vivek\.gradle\caches\transforms-3\4976b85570eb1d6ec3d13985230ed28e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\vivek\.gradle\caches\transforms-3\c241c954b0dd8e2e9f66630d5a5640ce\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.paging:paging-runtime-ktx:3.1.0] C:\Users\vivek\.gradle\caches\transforms-3\92d071315546ffbf080550372b6fd98f\transformed\jetified-paging-runtime-ktx-3.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.paging:paging-runtime:3.1.0] C:\Users\vivek\.gradle\caches\transforms-3\9b4f8eb87248d1e2e29d2746c869155e\transformed\paging-runtime-3.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\vivek\.gradle\caches\transforms-3\5086920f3c68dafedf56147cb4732779\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\vivek\.gradle\caches\transforms-3\66642a4f7df7cc46028aa13f7d59b215\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\760d41b50dddf39ab09b303d3ef21283\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\33bfeb1ab5adcd099fa36bfee5db82fa\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\7fe04492079d1e189bc305723515de30\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\e32fc98bfdb8a6dc942a3ff2638f1352\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\8584282c1950d73950dfb25aa9b8c52e\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.10.1] C:\Users\vivek\.gradle\caches\transforms-3\79ccbef4ecf046688c0dcfc17151a893\transformed\jetified-core-ktx-1.10.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\9574b378f0375ee82a7800d49c68cbbf\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.10.1] C:\Users\vivek\.gradle\caches\transforms-3\af20c76a6854b27506e7dcd603f8a9cc\transformed\core-1.10.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\vivek\.gradle\caches\transforms-3\3d370a3c8f92cb951067e4dc582cd89e\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\8021d9746e2ea59b1ecc1ce8b5d1dfaf\transformed\jetified-lifecycle-livedata-core-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\03c6fd1e7cc912010cb226304777f811\transformed\jetified-lifecycle-viewmodel-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\1c6813391f7ea82e014fd04c0433e18b\transformed\jetified-lifecycle-runtime-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\286646da0a0db20e77683a2836b34577\transformed\jetified-lifecycle-livedata-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\85bd5605cddeaa762f198b52afdf0fc4\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\fd04ccb0411115035ac652f3b844ec3d\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\cfc1718809f21fdfca652a08dc01cba8\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\7e3738df7fcf48676a30bd5fc7f65ef8\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\c41e45ce421ad30f12a36c4085e7ec41\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\837db713bd3a94805afc616dc6381bbb\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\vivek\.gradle\caches\transforms-3\a410a342c1cf39453236abb28844995f\transformed\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:2:1-75:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\vivek\.gradle\caches\transforms-3\4da06326c161c2b4e1a66fa46c02d399\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.heifwriter:heifwriter:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\b4c616d07019f0f69284d4021445634b\transformed\heifwriter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vivek\.gradle\caches\transforms-3\6fd9329214a52f8941f7c0f98ccdbf77\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vivek\.gradle\caches\transforms-3\913a9907e6c215b95b0d7d3b92e4b162\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\b3a028ad2cfc8f5207ece2cd1632615d\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\d9060384d87e8822a7d40d9a3da16a37\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vivek\.gradle\caches\transforms-3\6b925accbc861e151e2228552ff80642\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\81b0f1d27ae5d7ad274c5add16703c77\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\vivek\.gradle\caches\transforms-3\29f5f154348951ae9c16632a839bc318\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\vivek\.gradle\caches\transforms-3\ddcfe56f730376d0cfc2d4bd15edc282\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\vivek\.gradle\caches\transforms-3\1b18cf5634a6941c62b6ddd141e74dea\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.play:core-common:2.0.2] C:\Users\vivek\.gradle\caches\transforms-3\ae1d4bf6bd46b26e20397fc31dc997e3\transformed\jetified-core-common-2.0.2\AndroidManifest.xml:2:1-21:12
+MERGED from [ly.img.android:authorization:9.0.0.0] C:\Users\vivek\.gradle\caches\transforms-3\157cc5caa74c9e512ddf912a521f8ba3\transformed\jetified-authorization-9.0.0.0\AndroidManifest.xml:2:1-11:12
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.19] C:\Users\vivek\.gradle\caches\transforms-3\a070f5bf0e7b5355e0b5dca8f017815f\transformed\jetified-android-gif-drawable-1.2.19\AndroidManifest.xml:2:1-9:12
+MERGED from [pl.droidsonroids:relinker:1.3.1] C:\Users\vivek\.gradle\caches\transforms-3\0f9f7ee83c82ffeffaa60f33ec797ad3\transformed\jetified-relinker-1.3.1\AndroidManifest.xml:2:1-7:12
+INJECTED from D:\sticker-maker\sticker_maker\android\app\src\debug\AndroidManifest.xml:1:1-8:12
+INJECTED from D:\sticker-maker\sticker_maker\android\app\src\debug\AndroidManifest.xml:1:1-8:12
+INJECTED from D:\sticker-maker\sticker_maker\android\app\src\debug\AndroidManifest.xml:1:1-8:12
+	package
+		ADDED from D:\sticker-maker\sticker_maker\android\app\src\main\AndroidManifest.xml:2:5-45
+		INJECTED from D:\sticker-maker\sticker_maker\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\sticker-maker\sticker_maker\android\app\src\debug\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\sticker-maker\sticker_maker\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\sticker-maker\sticker_maker\android\app\src\main\AndroidManifest.xml:1:1-48:12
+		INJECTED from D:\sticker-maker\sticker_maker\android\app\src\debug\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\sticker-maker\sticker_maker\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\sticker-maker\sticker_maker\android\app\src\main\AndroidManifest.xml:1:1-48:12
+		INJECTED from D:\sticker-maker\sticker_maker\android\app\src\debug\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\sticker-maker\sticker_maker\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-sdk
+INJECTED from D:\sticker-maker\sticker_maker\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\sticker-maker\sticker_maker\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\sticker-maker\sticker_maker\android\app\src\main\AndroidManifest.xml
+MERGED from [:adivery] D:\sticker-maker\sticker_maker\build\adivery\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:adivery] D:\sticker-maker\sticker_maker\build\adivery\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:image_picker_android] D:\sticker-maker\sticker_maker\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:image_picker_android] D:\sticker-maker\sticker_maker\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] D:\sticker-maker\sticker_maker\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] D:\sticker-maker\sticker_maker\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:image_gallery_saver] D:\sticker-maker\sticker_maker\build\image_gallery_saver\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:image_gallery_saver] D:\sticker-maker\sticker_maker\build\image_gallery_saver\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_share] D:\sticker-maker\sticker_maker\build\flutter_share\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_share] D:\sticker-maker\sticker_maker\build\flutter_share\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:in_app_review] D:\sticker-maker\sticker_maker\build\in_app_review\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:in_app_review] D:\sticker-maker\sticker_maker\build\in_app_review\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] D:\sticker-maker\sticker_maker\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] D:\sticker-maker\sticker_maker\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] D:\sticker-maker\sticker_maker\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] D:\sticker-maker\sticker_maker\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_image_editor] D:\sticker-maker\sticker_maker\build\flutter_image_editor\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_image_editor] D:\sticker-maker\sticker_maker\build\flutter_image_editor\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_native_splash] D:\sticker-maker\sticker_maker\build\flutter_native_splash\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_native_splash] D:\sticker-maker\sticker_maker\build\flutter_native_splash\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:image_cropper] D:\sticker-maker\sticker_maker\build\image_cropper\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:image_cropper] D:\sticker-maker\sticker_maker\build\image_cropper\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] D:\sticker-maker\sticker_maker\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] D:\sticker-maker\sticker_maker\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_photo_editor] D:\sticker-maker\sticker_maker\build\flutter_photo_editor\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_photo_editor] D:\sticker-maker\sticker_maker\build\flutter_photo_editor\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:telegram_stickers_import] D:\sticker-maker\sticker_maker\build\telegram_stickers_import\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:telegram_stickers_import] D:\sticker-maker\sticker_maker\build\telegram_stickers_import\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:whatsapp_stickers_exporter] D:\sticker-maker\sticker_maker\build\whatsapp_stickers_exporter\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:whatsapp_stickers_exporter] D:\sticker-maker\sticker_maker\build\whatsapp_stickers_exporter\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:photo_editor_sdk] D:\sticker-maker\sticker_maker\build\photo_editor_sdk\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-8:41
+MERGED from [:photo_editor_sdk] D:\sticker-maker\sticker_maker\build\photo_editor_sdk\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-8:41
+MERGED from [:is_app_installed] D:\sticker-maker\sticker_maker\build\is_app_installed\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:is_app_installed] D:\sticker-maker\sticker_maker\build\is_app_installed\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_image_compress] D:\sticker-maker\sticker_maker\build\flutter_image_compress\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-9:55
+MERGED from [:flutter_image_compress] D:\sticker-maker\sticker_maker\build\flutter_image_compress\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-9:55
+MERGED from [:imgly_sdk] D:\sticker-maker\sticker_maker\build\imgly_sdk\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-8:41
+MERGED from [:imgly_sdk] D:\sticker-maker\sticker_maker\build\imgly_sdk\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-8:41
+MERGED from [ly.img.android.sdk:config-loader:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\b875f2d03bcc307dfecd88da463633ab\transformed\jetified-config-loader-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk:config-loader:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\b875f2d03bcc307dfecd88da463633ab\transformed\jetified-config-loader-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:camera:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\630219538ebf4f8204150f3d525a0646\transformed\jetified-camera-10.4.1\AndroidManifest.xml:18:5-20:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:camera:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\630219538ebf4f8204150f3d525a0646\transformed\jetified-camera-10.4.1\AndroidManifest.xml:18:5-20:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:photo-main:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\16cc8a445255a8bbb769aade1e191ebf\transformed\jetified-photo-main-10.4.1\AndroidManifest.xml:18:5-20:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:photo-main:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\16cc8a445255a8bbb769aade1e191ebf\transformed\jetified-photo-main-10.4.1\AndroidManifest.xml:18:5-20:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:all:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\a58a4b180f8c28526240dd41a626d11b\transformed\jetified-all-10.4.1\AndroidManifest.xml:18:5-20:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:all:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\a58a4b180f8c28526240dd41a626d11b\transformed\jetified-all-10.4.1\AndroidManifest.xml:18:5-20:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:adjustment:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\9182f50220158e9d35225bc7824d346d\transformed\jetified-adjustment-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:adjustment:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\9182f50220158e9d35225bc7824d346d\transformed\jetified-adjustment-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:brush:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\4d822cd176a159bf7c568f2858bf642a\transformed\jetified-brush-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:brush:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\4d822cd176a159bf7c568f2858bf642a\transformed\jetified-brush-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:filter:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\2c36b798753118dcad2443105ea6605f\transformed\jetified-filter-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:filter:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\2c36b798753118dcad2443105ea6605f\transformed\jetified-filter-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:focus:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\9580014a9c596bdc997eab782d402c53\transformed\jetified-focus-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:focus:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\9580014a9c596bdc997eab782d402c53\transformed\jetified-focus-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.assets:frame-basic:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\4acea48f0c2974862e33a7bf0781de5b\transformed\jetified-frame-basic-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.assets:frame-basic:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\4acea48f0c2974862e33a7bf0781de5b\transformed\jetified-frame-basic-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:frame:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\52c5c31a0b601bbd0eaa0a571b9afed0\transformed\jetified-frame-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:frame:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\52c5c31a0b601bbd0eaa0a571b9afed0\transformed\jetified-frame-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.assets:overlay-basic:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\f41d2f488547121ddbaf3a56a4fa8f15\transformed\jetified-overlay-basic-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.assets:overlay-basic:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\f41d2f488547121ddbaf3a56a4fa8f15\transformed\jetified-overlay-basic-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:overlay:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\d9fa84fe972ce6ba1bc14e4e3d769804\transformed\jetified-overlay-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:overlay:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\d9fa84fe972ce6ba1bc14e4e3d769804\transformed\jetified-overlay-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:giphy-sticker:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\84e562f19a834f852f391afa6ad9d438\transformed\jetified-giphy-sticker-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:giphy-sticker:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\84e562f19a834f852f391afa6ad9d438\transformed\jetified-giphy-sticker-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:sticker:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\caddde361903450b05fb94fa8b04d189\transformed\jetified-sticker-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:sticker:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\caddde361903450b05fb94fa8b04d189\transformed\jetified-sticker-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.assets:font-basic:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\9ccfac3387bcbf46523d19b1f9504374\transformed\jetified-font-basic-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.assets:font-basic:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\9ccfac3387bcbf46523d19b1f9504374\transformed\jetified-font-basic-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:text-design:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\ba22a126c5313be8b71a9d31491dfc89\transformed\jetified-text-design-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:text-design:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\ba22a126c5313be8b71a9d31491dfc89\transformed\jetified-text-design-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.operation:text-design:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\d260403edf51d52e07889f806031cd06\transformed\jetified-text-design-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.operation:text-design:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\d260403edf51d52e07889f806031cd06\transformed\jetified-text-design-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.assets:font-text-design:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\7a951e17ee6fd7c309d214888bf00dd1\transformed\jetified-font-text-design-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.assets:font-text-design:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\7a951e17ee6fd7c309d214888bf00dd1\transformed\jetified-font-text-design-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.assets:font-shared:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\ae1538abb482b60c8fa06cd175abc432\transformed\jetified-font-shared-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.assets:font-shared:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\ae1538abb482b60c8fa06cd175abc432\transformed\jetified-font-shared-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:text:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\4d1450dd5c5ebed102f821f846051ae7\transformed\jetified-text-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:text:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\4d1450dd5c5ebed102f821f846051ae7\transformed\jetified-text-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:transform:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\e7203b5cc8457d2b82342fef7e011701\transformed\jetified-transform-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:transform:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\e7203b5cc8457d2b82342fef7e011701\transformed\jetified-transform-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:video-main:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\ef6744919fa76384168ccd7233a0e55c\transformed\jetified-video-main-10.4.1\AndroidManifest.xml:18:5-20:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:video-main:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\ef6744919fa76384168ccd7233a0e55c\transformed\jetified-video-main-10.4.1\AndroidManifest.xml:18:5-20:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:video-composition:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\3cb8d9a2befd05b4891d3b965563859a\transformed\jetified-video-composition-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:video-composition:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\3cb8d9a2befd05b4891d3b965563859a\transformed\jetified-video-composition-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:audio-composition:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\6e55d6104b30fd94ae6f87345d363f40\transformed\jetified-audio-composition-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:audio-composition:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\6e55d6104b30fd94ae6f87345d363f40\transformed\jetified-audio-composition-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:video-library:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\6625509311db40dd42d67d123ee63b75\transformed\jetified-video-library-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:video-library:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\6625509311db40dd42d67d123ee63b75\transformed\jetified-video-library-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:sprite-duration:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\e4369ad8c43bbd157c0c8a5ddaf733c7\transformed\jetified-sprite-duration-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:sprite-duration:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\e4369ad8c43bbd157c0c8a5ddaf733c7\transformed\jetified-sprite-duration-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:video-trim:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\55c9defb17487ba04a5df38d8a8f56a4\transformed\jetified-video-trim-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:video-trim:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\55c9defb17487ba04a5df38d8a8f56a4\transformed\jetified-video-trim-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:core:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\03eddb9bbf38faf28954a55d633a4131\transformed\jetified-core-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.ui.mobile_ui:core:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\03eddb9bbf38faf28954a55d633a4131\transformed\jetified-core-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.operation:photo-core:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\f2abf7503d9193332470269ceb8c9788\transformed\jetified-photo-core-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.operation:photo-core:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\f2abf7503d9193332470269ceb8c9788\transformed\jetified-photo-core-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.assets:filter-basic:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\b33c870c1881ef71d8e4f58724b28b5c\transformed\jetified-filter-basic-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.assets:filter-basic:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\b33c870c1881ef71d8e4f58724b28b5c\transformed\jetified-filter-basic-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.assets:sticker-emoticons:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\635ead5e8f55dc932e04f8375f443e04\transformed\jetified-sticker-emoticons-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.assets:sticker-emoticons:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\635ead5e8f55dc932e04f8375f443e04\transformed\jetified-sticker-emoticons-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.assets:sticker-shapes:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\57e9b1a8e93d5158305445b0b05c477f\transformed\jetified-sticker-shapes-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.assets:sticker-shapes:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\57e9b1a8e93d5158305445b0b05c477f\transformed\jetified-sticker-shapes-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.assets:sticker-animated:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\46eec2d1f30c480edc162597e479ab5d\transformed\jetified-sticker-animated-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.assets:sticker-animated:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\46eec2d1f30c480edc162597e479ab5d\transformed\jetified-sticker-animated-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.operation:sticker:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\7108a8eaa93ae97d455e9f77939e45d2\transformed\jetified-sticker-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.operation:sticker:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\7108a8eaa93ae97d455e9f77939e45d2\transformed\jetified-sticker-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.operation:text:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\a2915c39084408f4eb8d077a31cab943\transformed\jetified-text-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.operation:text:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\a2915c39084408f4eb8d077a31cab943\transformed\jetified-text-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.operation:sticker-animated:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\1a9a16f16fd5f7dba9b5352eb6e4e507\transformed\jetified-sticker-animated-10.4.1\AndroidManifest.xml:19:5-22:56
+MERGED from [ly.img.android.sdk.operation:sticker-animated:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\1a9a16f16fd5f7dba9b5352eb6e4e507\transformed\jetified-sticker-animated-10.4.1\AndroidManifest.xml:19:5-22:56
+MERGED from [ly.img.android.sdk.operation:abstract-sticker:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\e21bc75d911e3bd067c7929dd0b218ae\transformed\jetified-abstract-sticker-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.operation:abstract-sticker:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\e21bc75d911e3bd067c7929dd0b218ae\transformed\jetified-abstract-sticker-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.operation:adjustment:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\8c76807129a354ea4987ee38dc8ed7fa\transformed\jetified-adjustment-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.operation:adjustment:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\8c76807129a354ea4987ee38dc8ed7fa\transformed\jetified-adjustment-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.operation:brush:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\569cb6dd9ced6e0e752254f9a71c2f6c\transformed\jetified-brush-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.operation:brush:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\569cb6dd9ced6e0e752254f9a71c2f6c\transformed\jetified-brush-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.operation:camera:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\69e68c7170784f82e694e8d1963022ff\transformed\jetified-camera-10.4.1\AndroidManifest.xml:18:5-20:41
+MERGED from [ly.img.android.sdk.operation:camera:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\69e68c7170784f82e694e8d1963022ff\transformed\jetified-camera-10.4.1\AndroidManifest.xml:18:5-20:41
+MERGED from [ly.img.android.sdk.operation:filter:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\fb95045057a6e25a476a0ac79a54e7cd\transformed\jetified-filter-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.operation:filter:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\fb95045057a6e25a476a0ac79a54e7cd\transformed\jetified-filter-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.operation:focus:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\e3cbf608a675bf53574259b9aaab182b\transformed\jetified-focus-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.operation:focus:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\e3cbf608a675bf53574259b9aaab182b\transformed\jetified-focus-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.operation:frame:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\fdd442f72bdb766c1797b79c191c1eeb\transformed\jetified-frame-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.operation:frame:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\fdd442f72bdb766c1797b79c191c1eeb\transformed\jetified-frame-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.operation:overlay:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\1002719fcec1eac54d9264697252093a\transformed\jetified-overlay-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.operation:overlay:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\1002719fcec1eac54d9264697252093a\transformed\jetified-overlay-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.operation:video-core:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\782d1c628c53707e37873305cb89de8e\transformed\jetified-video-core-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk.operation:video-core:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\782d1c628c53707e37873305cb89de8e\transformed\jetified-video-core-10.4.1\AndroidManifest.xml:5:5-7:41
+MERGED from [ly.img.android.sdk:core:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\87815842dc63489961b78367810ea64c\transformed\jetified-core-10.4.1\AndroidManifest.xml:18:5-20:41
+MERGED from [ly.img.android.sdk:core:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\87815842dc63489961b78367810ea64c\transformed\jetified-core-10.4.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.github.yalantis:ucrop:2.2.8] C:\Users\vivek\.gradle\caches\transforms-3\119fd2522e0bc7eb609e2d27ee119943\transformed\jetified-ucrop-2.2.8\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yalantis:ucrop:2.2.8] C:\Users\vivek\.gradle\caches\transforms-3\119fd2522e0bc7eb609e2d27ee119943\transformed\jetified-ucrop-2.2.8\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\vivek\.gradle\caches\transforms-3\c816db95db3cbcf6d4ba2c7cc166a660\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\vivek\.gradle\caches\transforms-3\c816db95db3cbcf6d4ba2c7cc166a660\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\vivek\.gradle\caches\transforms-3\eeb9c9a46b5580293184fa8105039dc1\transformed\appcompat-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\vivek\.gradle\caches\transforms-3\eeb9c9a46b5580293184fa8105039dc1\transformed\appcompat-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-base:18.2.0] C:\Users\vivek\.gradle\caches\transforms-3\19f93428161d4c62ad557b4a123f3eb4\transformed\jetified-play-services-base-18.2.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.2.0] C:\Users\vivek\.gradle\caches\transforms-3\19f93428161d4c62ad557b4a123f3eb4\transformed\jetified-play-services-base-18.2.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.play:review:2.0.1] C:\Users\vivek\.gradle\caches\transforms-3\d2467fb9bc69a6e2a0e5d3b5778a2771\transformed\jetified-review-2.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:review:2.0.1] C:\Users\vivek\.gradle\caches\transforms-3\d2467fb9bc69a6e2a0e5d3b5778a2771\transformed\jetified-review-2.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\vivek\.gradle\caches\transforms-3\2ff8c18ae9c240174d655a40e4cdfa98\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\vivek\.gradle\caches\transforms-3\2ff8c18ae9c240174d655a40e4cdfa98\transformed\jetified-play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\vivek\.gradle\caches\transforms-3\1fe21ea878d6b1d37676091d088c20dd\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\vivek\.gradle\caches\transforms-3\1fe21ea878d6b1d37676091d088c20dd\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\vivek\.gradle\caches\transforms-3\a098e1d92982bb797e09a931110dd08d\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\vivek\.gradle\caches\transforms-3\a098e1d92982bb797e09a931110dd08d\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\vivek\.gradle\caches\transforms-3\bc58aeac915f1901712b6ae9730b5f27\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\vivek\.gradle\caches\transforms-3\bc58aeac915f1901712b6ae9730b5f27\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.7.2] C:\Users\vivek\.gradle\caches\transforms-3\2b56b4a2845ef313451f82a4da95a5b9\transformed\jetified-activity-1.7.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.7.2] C:\Users\vivek\.gradle\caches\transforms-3\2b56b4a2845ef313451f82a4da95a5b9\transformed\jetified-activity-1.7.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.5.0] C:\Users\vivek\.gradle\caches\transforms-3\0e96c4df32a8783c30a0356a126fa818\transformed\browser-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.5.0] C:\Users\vivek\.gradle\caches\transforms-3\0e96c4df32a8783c30a0356a126fa818\transformed\browser-1.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\vivek\.gradle\caches\transforms-3\8b5b1bc07f91dd694243d5b18907201b\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\vivek\.gradle\caches\transforms-3\8b5b1bc07f91dd694243d5b18907201b\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\vivek\.gradle\caches\transforms-3\e0160233d02ae028657f87599ff44174\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Users\vivek\.gradle\caches\transforms-3\e0160233d02ae028657f87599ff44174\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\09e956b959c954b26235581ca3e9277f\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\09e956b959c954b26235581ca3e9277f\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.4.0] C:\Users\vivek\.gradle\caches\transforms-3\226374ce2e5bd7e7a011defe04db838e\transformed\jetified-appcompat-resources-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.0] C:\Users\vivek\.gradle\caches\transforms-3\226374ce2e5bd7e7a011defe04db838e\transformed\jetified-appcompat-resources-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\vivek\.gradle\caches\transforms-3\4976b85570eb1d6ec3d13985230ed28e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\vivek\.gradle\caches\transforms-3\4976b85570eb1d6ec3d13985230ed28e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\vivek\.gradle\caches\transforms-3\c241c954b0dd8e2e9f66630d5a5640ce\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\vivek\.gradle\caches\transforms-3\c241c954b0dd8e2e9f66630d5a5640ce\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.paging:paging-runtime-ktx:3.1.0] C:\Users\vivek\.gradle\caches\transforms-3\92d071315546ffbf080550372b6fd98f\transformed\jetified-paging-runtime-ktx-3.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.paging:paging-runtime-ktx:3.1.0] C:\Users\vivek\.gradle\caches\transforms-3\92d071315546ffbf080550372b6fd98f\transformed\jetified-paging-runtime-ktx-3.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.paging:paging-runtime:3.1.0] C:\Users\vivek\.gradle\caches\transforms-3\9b4f8eb87248d1e2e29d2746c869155e\transformed\paging-runtime-3.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.paging:paging-runtime:3.1.0] C:\Users\vivek\.gradle\caches\transforms-3\9b4f8eb87248d1e2e29d2746c869155e\transformed\paging-runtime-3.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\vivek\.gradle\caches\transforms-3\5086920f3c68dafedf56147cb4732779\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\vivek\.gradle\caches\transforms-3\5086920f3c68dafedf56147cb4732779\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\vivek\.gradle\caches\transforms-3\66642a4f7df7cc46028aa13f7d59b215\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\vivek\.gradle\caches\transforms-3\66642a4f7df7cc46028aa13f7d59b215\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\760d41b50dddf39ab09b303d3ef21283\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\760d41b50dddf39ab09b303d3ef21283\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\33bfeb1ab5adcd099fa36bfee5db82fa\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\33bfeb1ab5adcd099fa36bfee5db82fa\transformed\jetified-emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\7fe04492079d1e189bc305723515de30\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\7fe04492079d1e189bc305723515de30\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\e32fc98bfdb8a6dc942a3ff2638f1352\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\e32fc98bfdb8a6dc942a3ff2638f1352\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\8584282c1950d73950dfb25aa9b8c52e\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\8584282c1950d73950dfb25aa9b8c52e\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.10.1] C:\Users\vivek\.gradle\caches\transforms-3\79ccbef4ecf046688c0dcfc17151a893\transformed\jetified-core-ktx-1.10.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.10.1] C:\Users\vivek\.gradle\caches\transforms-3\79ccbef4ecf046688c0dcfc17151a893\transformed\jetified-core-ktx-1.10.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\9574b378f0375ee82a7800d49c68cbbf\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\9574b378f0375ee82a7800d49c68cbbf\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.10.1] C:\Users\vivek\.gradle\caches\transforms-3\af20c76a6854b27506e7dcd603f8a9cc\transformed\core-1.10.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.10.1] C:\Users\vivek\.gradle\caches\transforms-3\af20c76a6854b27506e7dcd603f8a9cc\transformed\core-1.10.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\vivek\.gradle\caches\transforms-3\3d370a3c8f92cb951067e4dc582cd89e\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\vivek\.gradle\caches\transforms-3\3d370a3c8f92cb951067e4dc582cd89e\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\8021d9746e2ea59b1ecc1ce8b5d1dfaf\transformed\jetified-lifecycle-livedata-core-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\8021d9746e2ea59b1ecc1ce8b5d1dfaf\transformed\jetified-lifecycle-livedata-core-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\03c6fd1e7cc912010cb226304777f811\transformed\jetified-lifecycle-viewmodel-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\03c6fd1e7cc912010cb226304777f811\transformed\jetified-lifecycle-viewmodel-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\1c6813391f7ea82e014fd04c0433e18b\transformed\jetified-lifecycle-runtime-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\1c6813391f7ea82e014fd04c0433e18b\transformed\jetified-lifecycle-runtime-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\286646da0a0db20e77683a2836b34577\transformed\jetified-lifecycle-livedata-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\286646da0a0db20e77683a2836b34577\transformed\jetified-lifecycle-livedata-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\85bd5605cddeaa762f198b52afdf0fc4\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\85bd5605cddeaa762f198b52afdf0fc4\transformed\lifecycle-livedata-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\fd04ccb0411115035ac652f3b844ec3d\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\fd04ccb0411115035ac652f3b844ec3d\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\cfc1718809f21fdfca652a08dc01cba8\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\cfc1718809f21fdfca652a08dc01cba8\transformed\lifecycle-livedata-core-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\7e3738df7fcf48676a30bd5fc7f65ef8\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\7e3738df7fcf48676a30bd5fc7f65ef8\transformed\lifecycle-viewmodel-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\c41e45ce421ad30f12a36c4085e7ec41\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\c41e45ce421ad30f12a36c4085e7ec41\transformed\lifecycle-runtime-2.6.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\837db713bd3a94805afc616dc6381bbb\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\837db713bd3a94805afc616dc6381bbb\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\vivek\.gradle\caches\transforms-3\a410a342c1cf39453236abb28844995f\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\vivek\.gradle\caches\transforms-3\a410a342c1cf39453236abb28844995f\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:6:5-9:51
+MERGED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:6:5-9:51
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\vivek\.gradle\caches\transforms-3\4da06326c161c2b4e1a66fa46c02d399\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\vivek\.gradle\caches\transforms-3\4da06326c161c2b4e1a66fa46c02d399\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.heifwriter:heifwriter:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\b4c616d07019f0f69284d4021445634b\transformed\heifwriter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.heifwriter:heifwriter:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\b4c616d07019f0f69284d4021445634b\transformed\heifwriter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vivek\.gradle\caches\transforms-3\6fd9329214a52f8941f7c0f98ccdbf77\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vivek\.gradle\caches\transforms-3\6fd9329214a52f8941f7c0f98ccdbf77\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vivek\.gradle\caches\transforms-3\913a9907e6c215b95b0d7d3b92e4b162\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vivek\.gradle\caches\transforms-3\913a9907e6c215b95b0d7d3b92e4b162\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\b3a028ad2cfc8f5207ece2cd1632615d\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\b3a028ad2cfc8f5207ece2cd1632615d\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\d9060384d87e8822a7d40d9a3da16a37\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\d9060384d87e8822a7d40d9a3da16a37\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vivek\.gradle\caches\transforms-3\6b925accbc861e151e2228552ff80642\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\vivek\.gradle\caches\transforms-3\6b925accbc861e151e2228552ff80642\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\81b0f1d27ae5d7ad274c5add16703c77\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\81b0f1d27ae5d7ad274c5add16703c77\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\vivek\.gradle\caches\transforms-3\29f5f154348951ae9c16632a839bc318\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\vivek\.gradle\caches\transforms-3\29f5f154348951ae9c16632a839bc318\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\vivek\.gradle\caches\transforms-3\ddcfe56f730376d0cfc2d4bd15edc282\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\vivek\.gradle\caches\transforms-3\ddcfe56f730376d0cfc2d4bd15edc282\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\vivek\.gradle\caches\transforms-3\1b18cf5634a6941c62b6ddd141e74dea\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\vivek\.gradle\caches\transforms-3\1b18cf5634a6941c62b6ddd141e74dea\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.play:core-common:2.0.2] C:\Users\vivek\.gradle\caches\transforms-3\ae1d4bf6bd46b26e20397fc31dc997e3\transformed\jetified-core-common-2.0.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:core-common:2.0.2] C:\Users\vivek\.gradle\caches\transforms-3\ae1d4bf6bd46b26e20397fc31dc997e3\transformed\jetified-core-common-2.0.2\AndroidManifest.xml:7:5-9:41
+MERGED from [ly.img.android:authorization:9.0.0.0] C:\Users\vivek\.gradle\caches\transforms-3\157cc5caa74c9e512ddf912a521f8ba3\transformed\jetified-authorization-9.0.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [ly.img.android:authorization:9.0.0.0] C:\Users\vivek\.gradle\caches\transforms-3\157cc5caa74c9e512ddf912a521f8ba3\transformed\jetified-authorization-9.0.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.19] C:\Users\vivek\.gradle\caches\transforms-3\a070f5bf0e7b5355e0b5dca8f017815f\transformed\jetified-android-gif-drawable-1.2.19\AndroidManifest.xml:5:5-7:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.2.19] C:\Users\vivek\.gradle\caches\transforms-3\a070f5bf0e7b5355e0b5dca8f017815f\transformed\jetified-android-gif-drawable-1.2.19\AndroidManifest.xml:5:5-7:41
+MERGED from [pl.droidsonroids:relinker:1.3.1] C:\Users\vivek\.gradle\caches\transforms-3\0f9f7ee83c82ffeffaa60f33ec797ad3\transformed\jetified-relinker-1.3.1\AndroidManifest.xml:5:5-43
+MERGED from [pl.droidsonroids:relinker:1.3.1] C:\Users\vivek\.gradle\caches\transforms-3\0f9f7ee83c82ffeffaa60f33ec797ad3\transformed\jetified-relinker-1.3.1\AndroidManifest.xml:5:5-43
+INJECTED from D:\sticker-maker\sticker_maker\android\app\src\debug\AndroidManifest.xml
+INJECTED from D:\sticker-maker\sticker_maker\android\app\src\debug\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [:flutter_image_compress] D:\sticker-maker\sticker_maker\build\flutter_image_compress\intermediates\merged_manifest\debug\AndroidManifest.xml:9:9-52
+	android:targetSdkVersion
+		INJECTED from D:\sticker-maker\sticker_maker\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\sticker-maker\sticker_maker\android\app\src\debug\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\sticker-maker\sticker_maker\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\sticker-maker\sticker_maker\android\app\src\debug\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\sticker-maker\sticker_maker\android\app\src\debug\AndroidManifest.xml:7:5-66
+MERGED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:11:5-67
+MERGED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from D:\sticker-maker\sticker_maker\android\app\src\debug\AndroidManifest.xml:7:22-64
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker_android] D:\sticker-maker\sticker_maker\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:image_picker_android] D:\sticker-maker\sticker_maker\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [:image_picker_android] D:\sticker-maker\sticker_maker\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
+	android:exported
+		ADDED from [:image_picker_android] D:\sticker-maker\sticker_maker\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:image_picker_android] D:\sticker-maker\sticker_maker\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker_android] D:\sticker-maker\sticker_maker\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:75
+MERGED from [:telegram_stickers_import] D:\sticker-maker\sticker_maker\build\telegram_stickers_import\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:53
+MERGED from [:telegram_stickers_import] D:\sticker-maker\sticker_maker\build\telegram_stickers_import\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:53
+	android:resource
+		ADDED from [:image_picker_android] D:\sticker-maker\sticker_maker\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
+	android:name
+		ADDED from [:image_picker_android] D:\sticker-maker\sticker_maker\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] D:\sticker-maker\sticker_maker\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+	android:exported
+		ADDED from [:url_launcher_android] D:\sticker-maker\sticker_maker\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+	android:theme
+		ADDED from [:url_launcher_android] D:\sticker-maker\sticker_maker\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+	android:name
+		ADDED from [:url_launcher_android] D:\sticker-maker\sticker_maker\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+activity#com.vachel.editor.PictureEditActivity
+ADDED from [:flutter_photo_editor] D:\sticker-maker\sticker_maker\build\flutter_photo_editor\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:63
+	android:windowSoftInputMode
+		ADDED from [:flutter_photo_editor] D:\sticker-maker\sticker_maker\build\flutter_photo_editor\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-60
+	android:exported
+		ADDED from [:flutter_photo_editor] D:\sticker-maker\sticker_maker\build\flutter_photo_editor\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+	android:theme
+		ADDED from [:flutter_photo_editor] D:\sticker-maker\sticker_maker\build\flutter_photo_editor\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-45
+	android:name
+		ADDED from [:flutter_photo_editor] D:\sticker-maker\sticker_maker\build\flutter_photo_editor\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-65
+queries
+ADDED from [:whatsapp_stickers_exporter] D:\sticker-maker\sticker_maker\build\whatsapp_stickers_exporter\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-12:15
+MERGED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:16:5-46:15
+MERGED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:16:5-46:15
+package#com.whatsapp
+ADDED from [:whatsapp_stickers_exporter] D:\sticker-maker\sticker_maker\build\whatsapp_stickers_exporter\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-48
+	android:name
+		ADDED from [:whatsapp_stickers_exporter] D:\sticker-maker\sticker_maker\build\whatsapp_stickers_exporter\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-45
+package#com.whatsapp.w4b
+ADDED from [:whatsapp_stickers_exporter] D:\sticker-maker\sticker_maker\build\whatsapp_stickers_exporter\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-52
+	android:name
+		ADDED from [:whatsapp_stickers_exporter] D:\sticker-maker\sticker_maker\build\whatsapp_stickers_exporter\intermediates\merged_manifest\debug\AndroidManifest.xml:11:18-49
+provider#moe.star39.whatsapp_stickers_exporter.StickerContentProvider
+ADDED from [:whatsapp_stickers_exporter] D:\sticker-maker\sticker_maker\build\whatsapp_stickers_exporter\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-20:66
+	android:readPermission
+		ADDED from [:whatsapp_stickers_exporter] D:\sticker-maker\sticker_maker\build\whatsapp_stickers_exporter\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-63
+	android:enabled
+		ADDED from [:whatsapp_stickers_exporter] D:\sticker-maker\sticker_maker\build\whatsapp_stickers_exporter\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-35
+	android:authorities
+		ADDED from [:whatsapp_stickers_exporter] D:\sticker-maker\sticker_maker\build\whatsapp_stickers_exporter\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-74
+	android:exported
+		ADDED from [:whatsapp_stickers_exporter] D:\sticker-maker\sticker_maker\build\whatsapp_stickers_exporter\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-36
+	android:name
+		ADDED from [:whatsapp_stickers_exporter] D:\sticker-maker\sticker_maker\build\whatsapp_stickers_exporter\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-88
+provider#ly.img.android.IMGLYAutoInit
+ADDED from [:photo_editor_sdk] D:\sticker-maker\sticker_maker\build\photo_editor_sdk\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-16:47
+MERGED from [:imgly_sdk] D:\sticker-maker\sticker_maker\build\imgly_sdk\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-16:47
+MERGED from [:imgly_sdk] D:\sticker-maker\sticker_maker\build\imgly_sdk\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-16:47
+MERGED from [ly.img.android.sdk:core:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\87815842dc63489961b78367810ea64c\transformed\jetified-core-10.4.1\AndroidManifest.xml:35:9-39:40
+MERGED from [ly.img.android.sdk:core:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\87815842dc63489961b78367810ea64c\transformed\jetified-core-10.4.1\AndroidManifest.xml:35:9-39:40
+	android:enabled
+		ADDED from [:photo_editor_sdk] D:\sticker-maker\sticker_maker\build\photo_editor_sdk\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-36
+		REJECTED from [:imgly_sdk] D:\sticker-maker\sticker_maker\build\imgly_sdk\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-36
+		REJECTED from [ly.img.android.sdk:core:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\87815842dc63489961b78367810ea64c\transformed\jetified-core-10.4.1\AndroidManifest.xml:38:13-35
+	android:authorities
+		ADDED from [:photo_editor_sdk] D:\sticker-maker\sticker_maker\build\photo_editor_sdk\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-65
+	android:exported
+		ADDED from [:photo_editor_sdk] D:\sticker-maker\sticker_maker\build\photo_editor_sdk\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-37
+	tools:replace
+		ADDED from [:photo_editor_sdk] D:\sticker-maker\sticker_maker\build\photo_editor_sdk\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-44
+	android:name
+		ADDED from [:photo_editor_sdk] D:\sticker-maker\sticker_maker\build\photo_editor_sdk\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-56
+activity#ly.img.flutter.photo_editor_sdk.FlutterPESDKActivity
+ADDED from [:photo_editor_sdk] D:\sticker-maker\sticker_maker\build\photo_editor_sdk\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-89
+	android:name
+		ADDED from [:photo_editor_sdk] D:\sticker-maker\sticker_maker\build\photo_editor_sdk\intermediates\merged_manifest\debug\AndroidManifest.xml:18:19-86
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from [ly.img.android.sdk.ui.mobile_ui:camera:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\630219538ebf4f8204150f3d525a0646\transformed\jetified-camera-10.4.1\AndroidManifest.xml:22:5-76
+	android:name
+		ADDED from [ly.img.android.sdk.ui.mobile_ui:camera:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\630219538ebf4f8204150f3d525a0646\transformed\jetified-camera-10.4.1\AndroidManifest.xml:22:22-73
+activity#ly.img.android.pesdk.ui.activity.CameraPreviewActivity
+ADDED from [ly.img.android.sdk.ui.mobile_ui:camera:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\630219538ebf4f8204150f3d525a0646\transformed\jetified-camera-10.4.1\AndroidManifest.xml:25:9-30:52
+	android:screenOrientation
+		ADDED from [ly.img.android.sdk.ui.mobile_ui:camera:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\630219538ebf4f8204150f3d525a0646\transformed\jetified-camera-10.4.1\AndroidManifest.xml:30:13-49
+	android:label
+		ADDED from [ly.img.android.sdk.ui.mobile_ui:camera:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\630219538ebf4f8204150f3d525a0646\transformed\jetified-camera-10.4.1\AndroidManifest.xml:29:13-45
+	android:hardwareAccelerated
+		ADDED from [ly.img.android.sdk.ui.mobile_ui:camera:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\630219538ebf4f8204150f3d525a0646\transformed\jetified-camera-10.4.1\AndroidManifest.xml:28:13-47
+	android:exported
+		ADDED from [ly.img.android.sdk.ui.mobile_ui:camera:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\630219538ebf4f8204150f3d525a0646\transformed\jetified-camera-10.4.1\AndroidManifest.xml:27:13-36
+	android:name
+		ADDED from [ly.img.android.sdk.ui.mobile_ui:camera:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\630219538ebf4f8204150f3d525a0646\transformed\jetified-camera-10.4.1\AndroidManifest.xml:26:13-82
+activity#ly.img.android.pesdk.ui.activity.PhotoEditorActivity
+ADDED from [ly.img.android.sdk.ui.mobile_ui:photo-main:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\16cc8a445255a8bbb769aade1e191ebf\transformed\jetified-photo-main-10.4.1\AndroidManifest.xml:23:9-30:20
+	android:label
+		ADDED from [ly.img.android.sdk.ui.mobile_ui:photo-main:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\16cc8a445255a8bbb769aade1e191ebf\transformed\jetified-photo-main-10.4.1\AndroidManifest.xml:28:13-45
+	android:hardwareAccelerated
+		ADDED from [ly.img.android.sdk.ui.mobile_ui:photo-main:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\16cc8a445255a8bbb769aade1e191ebf\transformed\jetified-photo-main-10.4.1\AndroidManifest.xml:27:13-47
+	android:windowSoftInputMode
+		ADDED from [ly.img.android.sdk.ui.mobile_ui:photo-main:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\16cc8a445255a8bbb769aade1e191ebf\transformed\jetified-photo-main-10.4.1\AndroidManifest.xml:29:13-52
+	android:exported
+		ADDED from [ly.img.android.sdk.ui.mobile_ui:photo-main:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\16cc8a445255a8bbb769aade1e191ebf\transformed\jetified-photo-main-10.4.1\AndroidManifest.xml:26:13-36
+	android:configChanges
+		ADDED from [ly.img.android.sdk.ui.mobile_ui:photo-main:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\16cc8a445255a8bbb769aade1e191ebf\transformed\jetified-photo-main-10.4.1\AndroidManifest.xml:25:13-71
+	android:name
+		ADDED from [ly.img.android.sdk.ui.mobile_ui:photo-main:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\16cc8a445255a8bbb769aade1e191ebf\transformed\jetified-photo-main-10.4.1\AndroidManifest.xml:24:13-80
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from [ly.img.android.sdk.ui.mobile_ui:all:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\a58a4b180f8c28526240dd41a626d11b\transformed\jetified-all-10.4.1\AndroidManifest.xml:22:5-77
+	android:name
+		ADDED from [ly.img.android.sdk.ui.mobile_ui:all:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\a58a4b180f8c28526240dd41a626d11b\transformed\jetified-all-10.4.1\AndroidManifest.xml:22:22-74
+activity#ly.img.android.pesdk.ui.activity.EditorActivity
+ADDED from [ly.img.android.sdk.ui.mobile_ui:all:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\a58a4b180f8c28526240dd41a626d11b\transformed\jetified-all-10.4.1\AndroidManifest.xml:25:9-32:20
+	android:label
+		ADDED from [ly.img.android.sdk.ui.mobile_ui:all:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\a58a4b180f8c28526240dd41a626d11b\transformed\jetified-all-10.4.1\AndroidManifest.xml:30:13-45
+	android:hardwareAccelerated
+		ADDED from [ly.img.android.sdk.ui.mobile_ui:all:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\a58a4b180f8c28526240dd41a626d11b\transformed\jetified-all-10.4.1\AndroidManifest.xml:29:13-47
+	android:windowSoftInputMode
+		ADDED from [ly.img.android.sdk.ui.mobile_ui:all:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\a58a4b180f8c28526240dd41a626d11b\transformed\jetified-all-10.4.1\AndroidManifest.xml:31:13-52
+	android:exported
+		ADDED from [ly.img.android.sdk.ui.mobile_ui:all:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\a58a4b180f8c28526240dd41a626d11b\transformed\jetified-all-10.4.1\AndroidManifest.xml:28:13-36
+	android:configChanges
+		ADDED from [ly.img.android.sdk.ui.mobile_ui:all:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\a58a4b180f8c28526240dd41a626d11b\transformed\jetified-all-10.4.1\AndroidManifest.xml:27:13-71
+	android:name
+		ADDED from [ly.img.android.sdk.ui.mobile_ui:all:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\a58a4b180f8c28526240dd41a626d11b\transformed\jetified-all-10.4.1\AndroidManifest.xml:26:13-75
+activity#ly.img.android.pesdk.ui.activity.VideoEditorActivity
+ADDED from [ly.img.android.sdk.ui.mobile_ui:video-main:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\ef6744919fa76384168ccd7233a0e55c\transformed\jetified-video-main-10.4.1\AndroidManifest.xml:23:9-29:55
+	android:label
+		ADDED from [ly.img.android.sdk.ui.mobile_ui:video-main:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\ef6744919fa76384168ccd7233a0e55c\transformed\jetified-video-main-10.4.1\AndroidManifest.xml:28:13-45
+	android:hardwareAccelerated
+		ADDED from [ly.img.android.sdk.ui.mobile_ui:video-main:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\ef6744919fa76384168ccd7233a0e55c\transformed\jetified-video-main-10.4.1\AndroidManifest.xml:27:13-47
+	android:windowSoftInputMode
+		ADDED from [ly.img.android.sdk.ui.mobile_ui:video-main:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\ef6744919fa76384168ccd7233a0e55c\transformed\jetified-video-main-10.4.1\AndroidManifest.xml:29:13-52
+	android:exported
+		ADDED from [ly.img.android.sdk.ui.mobile_ui:video-main:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\ef6744919fa76384168ccd7233a0e55c\transformed\jetified-video-main-10.4.1\AndroidManifest.xml:26:13-36
+	android:configChanges
+		ADDED from [ly.img.android.sdk.ui.mobile_ui:video-main:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\ef6744919fa76384168ccd7233a0e55c\transformed\jetified-video-main-10.4.1\AndroidManifest.xml:25:13-71
+	android:name
+		ADDED from [ly.img.android.sdk.ui.mobile_ui:video-main:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\ef6744919fa76384168ccd7233a0e55c\transformed\jetified-video-main-10.4.1\AndroidManifest.xml:24:13-80
+uses-permission#android.permission.CAMERA
+ADDED from [ly.img.android.sdk.operation:camera:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\69e68c7170784f82e694e8d1963022ff\transformed\jetified-camera-10.4.1\AndroidManifest.xml:22:5-65
+	android:name
+		ADDED from [ly.img.android.sdk.operation:camera:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\69e68c7170784f82e694e8d1963022ff\transformed\jetified-camera-10.4.1\AndroidManifest.xml:22:22-62
+uses-feature#android.hardware.camera
+ADDED from [ly.img.android.sdk.operation:camera:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\69e68c7170784f82e694e8d1963022ff\transformed\jetified-camera-10.4.1\AndroidManifest.xml:24:5-26:36
+	android:required
+		ADDED from [ly.img.android.sdk.operation:camera:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\69e68c7170784f82e694e8d1963022ff\transformed\jetified-camera-10.4.1\AndroidManifest.xml:26:9-33
+	android:name
+		ADDED from [ly.img.android.sdk.operation:camera:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\69e68c7170784f82e694e8d1963022ff\transformed\jetified-camera-10.4.1\AndroidManifest.xml:25:9-47
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [ly.img.android.sdk:core:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\87815842dc63489961b78367810ea64c\transformed\jetified-core-10.4.1\AndroidManifest.xml:23:5-25:38
+	android:maxSdkVersion
+		ADDED from [ly.img.android.sdk:core:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\87815842dc63489961b78367810ea64c\transformed\jetified-core-10.4.1\AndroidManifest.xml:25:9-35
+	android:name
+		ADDED from [ly.img.android.sdk:core:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\87815842dc63489961b78367810ea64c\transformed\jetified-core-10.4.1\AndroidManifest.xml:24:9-65
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [ly.img.android.sdk:core:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\87815842dc63489961b78367810ea64c\transformed\jetified-core-10.4.1\AndroidManifest.xml:26:5-28:38
+	android:maxSdkVersion
+		ADDED from [ly.img.android.sdk:core:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\87815842dc63489961b78367810ea64c\transformed\jetified-core-10.4.1\AndroidManifest.xml:28:9-35
+	android:name
+		ADDED from [ly.img.android.sdk:core:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\87815842dc63489961b78367810ea64c\transformed\jetified-core-10.4.1\AndroidManifest.xml:27:9-64
+uses-feature#0x00020000
+ADDED from [ly.img.android.sdk:core:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\87815842dc63489961b78367810ea64c\transformed\jetified-core-10.4.1\AndroidManifest.xml:30:5-32:35
+	android:glEsVersion
+		ADDED from [ly.img.android.sdk:core:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\87815842dc63489961b78367810ea64c\transformed\jetified-core-10.4.1\AndroidManifest.xml:31:9-41
+	android:required
+		ADDED from [ly.img.android.sdk:core:10.4.1] C:\Users\vivek\.gradle\caches\transforms-3\87815842dc63489961b78367810ea64c\transformed\jetified-core-10.4.1\AndroidManifest.xml:32:9-32
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.2.0] C:\Users\vivek\.gradle\caches\transforms-3\19f93428161d4c62ad557b4a123f3eb4\transformed\jetified-play-services-base-18.2.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.2.0] C:\Users\vivek\.gradle\caches\transforms-3\19f93428161d4c62ad557b4a123f3eb4\transformed\jetified-play-services-base-18.2.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.2.0] C:\Users\vivek\.gradle\caches\transforms-3\19f93428161d4c62ad557b4a123f3eb4\transformed\jetified-play-services-base-18.2.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.2.0] C:\Users\vivek\.gradle\caches\transforms-3\19f93428161d4c62ad557b4a123f3eb4\transformed\jetified-play-services-base-18.2.0\AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\vivek\.gradle\caches\transforms-3\1fe21ea878d6b1d37676091d088c20dd\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\vivek\.gradle\caches\transforms-3\1fe21ea878d6b1d37676091d088c20dd\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\vivek\.gradle\caches\transforms-3\1fe21ea878d6b1d37676091d088c20dd\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\vivek\.gradle\caches\transforms-3\66642a4f7df7cc46028aa13f7d59b215\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\vivek\.gradle\caches\transforms-3\66642a4f7df7cc46028aa13f7d59b215\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\vivek\.gradle\caches\transforms-3\66642a4f7df7cc46028aa13f7d59b215\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\vivek\.gradle\caches\transforms-3\66642a4f7df7cc46028aa13f7d59b215\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\vivek\.gradle\caches\transforms-3\66642a4f7df7cc46028aa13f7d59b215\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\vivek\.gradle\caches\transforms-3\66642a4f7df7cc46028aa13f7d59b215\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\7fe04492079d1e189bc305723515de30\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\fd04ccb0411115035ac652f3b844ec3d\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\fd04ccb0411115035ac652f3b844ec3d\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vivek\.gradle\caches\transforms-3\6fd9329214a52f8941f7c0f98ccdbf77\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vivek\.gradle\caches\transforms-3\6fd9329214a52f8941f7c0f98ccdbf77\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vivek\.gradle\caches\transforms-3\913a9907e6c215b95b0d7d3b92e4b162\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\vivek\.gradle\caches\transforms-3\913a9907e6c215b95b0d7d3b92e4b162\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\7fe04492079d1e189bc305723515de30\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\7fe04492079d1e189bc305723515de30\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\7fe04492079d1e189bc305723515de30\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\7fe04492079d1e189bc305723515de30\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\7fe04492079d1e189bc305723515de30\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\7fe04492079d1e189bc305723515de30\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\vivek\.gradle\caches\transforms-3\7fe04492079d1e189bc305723515de30\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] C:\Users\vivek\.gradle\caches\transforms-3\af20c76a6854b27506e7dcd603f8a9cc\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.10.1] C:\Users\vivek\.gradle\caches\transforms-3\af20c76a6854b27506e7dcd603f8a9cc\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.10.1] C:\Users\vivek\.gradle\caches\transforms-3\af20c76a6854b27506e7dcd603f8a9cc\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+permission#com.arj.whatsapp_sticker_maker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] C:\Users\vivek\.gradle\caches\transforms-3\af20c76a6854b27506e7dcd603f8a9cc\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.10.1] C:\Users\vivek\.gradle\caches\transforms-3\af20c76a6854b27506e7dcd603f8a9cc\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.10.1] C:\Users\vivek\.gradle\caches\transforms-3\af20c76a6854b27506e7dcd603f8a9cc\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] C:\Users\vivek\.gradle\caches\transforms-3\af20c76a6854b27506e7dcd603f8a9cc\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.10.1] C:\Users\vivek\.gradle\caches\transforms-3\af20c76a6854b27506e7dcd603f8a9cc\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+uses-permission#com.arj.whatsapp_sticker_maker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] C:\Users\vivek\.gradle\caches\transforms-3\af20c76a6854b27506e7dcd603f8a9cc\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.10.1] C:\Users\vivek\.gradle\caches\transforms-3\af20c76a6854b27506e7dcd603f8a9cc\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\fd04ccb0411115035ac652f3b844ec3d\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\fd04ccb0411115035ac652f3b844ec3d\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\vivek\.gradle\caches\transforms-3\fd04ccb0411115035ac652f3b844ec3d\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:13:22-73
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:14:22-76
+package#ir.mservices.market
+ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:17:9-55
+	android:name
+		ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:17:18-52
+package#com.farsitel.bazaar
+ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:18:9-55
+	android:name
+		ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:18:18-52
+package#com.android.vending
+ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:19:9-55
+	android:name
+		ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:19:18-52
+intent#action:name:android.intent.action.VIEW+data:scheme:myket
+ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:21:9-25:18
+action#android.intent.action.VIEW
+ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:22:13-65
+	android:name
+		ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:22:21-62
+data
+ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:24:13-44
+	android:scheme
+		ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:24:19-41
+intent#action:name:android.intent.action.VIEW+data:scheme:bazaar
+ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:26:9-30:18
+intent#action:name:android.intent.action.VIEW+data:scheme:market
+ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:31:9-35:18
+intent#action:name:android.intent.action.VIEW+data:scheme:http
+ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:36:9-40:18
+intent#action:name:android.intent.action.VIEW+data:scheme:https
+ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:41:9-45:18
+receiver#com.adivery.sdk.UninstallReceiver
+ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:49:9-58:20
+	android:enabled
+		ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:51:13-35
+	android:exported
+		ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:50:13-61
+intent-filter#action:name:android.intent.action.PACKAGE_FULLY_REMOVED+data:scheme:package
+ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:53:13-57:29
+action#android.intent.action.PACKAGE_FULLY_REMOVED
+ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:54:17-86
+	android:name
+		ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:54:25-83
+meta-data#com.google.android.gms.ads.AD_MANAGER_APP
+ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:60:9-62:36
+	android:value
+		ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:62:13-33
+	android:name
+		ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:61:13-69
+activity#com.adivery.sdk.networks.adivery.AdActivity
+ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:64:9-67:55
+	android:screenOrientation
+		ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:67:13-52
+	android:exported
+		ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:66:13-37
+	android:name
+		ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:65:13-71
+service#com.adivery.sdk.LocationJobService
+ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:69:9-72:72
+	android:exported
+		ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:71:13-37
+	android:permission
+		ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:72:13-69
+	android:name
+		ADDED from [com.adivery:sdk:4.6.1] C:\Users\vivek\.gradle\caches\transforms-3\f5c4ebe5343446ca7dbdfdc482d35393\transformed\jetified-sdk-4.6.1\AndroidManifest.xml:70:13-62
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vivek\.gradle\caches\transforms-3\6fd9329214a52f8941f7c0f98ccdbf77\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vivek\.gradle\caches\transforms-3\6fd9329214a52f8941f7c0f98ccdbf77\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vivek\.gradle\caches\transforms-3\6fd9329214a52f8941f7c0f98ccdbf77\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vivek\.gradle\caches\transforms-3\6fd9329214a52f8941f7c0f98ccdbf77\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vivek\.gradle\caches\transforms-3\6fd9329214a52f8941f7c0f98ccdbf77\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vivek\.gradle\caches\transforms-3\6fd9329214a52f8941f7c0f98ccdbf77\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vivek\.gradle\caches\transforms-3\6fd9329214a52f8941f7c0f98ccdbf77\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vivek\.gradle\caches\transforms-3\6fd9329214a52f8941f7c0f98ccdbf77\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vivek\.gradle\caches\transforms-3\6fd9329214a52f8941f7c0f98ccdbf77\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vivek\.gradle\caches\transforms-3\6fd9329214a52f8941f7c0f98ccdbf77\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vivek\.gradle\caches\transforms-3\6fd9329214a52f8941f7c0f98ccdbf77\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vivek\.gradle\caches\transforms-3\6fd9329214a52f8941f7c0f98ccdbf77\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vivek\.gradle\caches\transforms-3\6fd9329214a52f8941f7c0f98ccdbf77\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vivek\.gradle\caches\transforms-3\6fd9329214a52f8941f7c0f98ccdbf77\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vivek\.gradle\caches\transforms-3\6fd9329214a52f8941f7c0f98ccdbf77\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vivek\.gradle\caches\transforms-3\6fd9329214a52f8941f7c0f98ccdbf77\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vivek\.gradle\caches\transforms-3\6fd9329214a52f8941f7c0f98ccdbf77\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vivek\.gradle\caches\transforms-3\6fd9329214a52f8941f7c0f98ccdbf77\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vivek\.gradle\caches\transforms-3\6fd9329214a52f8941f7c0f98ccdbf77\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vivek\.gradle\caches\transforms-3\6fd9329214a52f8941f7c0f98ccdbf77\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\vivek\.gradle\caches\transforms-3\6fd9329214a52f8941f7c0f98ccdbf77\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from [com.google.android.play:core-common:2.0.2] C:\Users\vivek\.gradle\caches\transforms-3\ae1d4bf6bd46b26e20397fc31dc997e3\transformed\jetified-core-common-2.0.2\AndroidManifest.xml:14:9-18:65
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core-common:2.0.2] C:\Users\vivek\.gradle\caches\transforms-3\ae1d4bf6bd46b26e20397fc31dc997e3\transformed\jetified-core-common-2.0.2\AndroidManifest.xml:17:13-42
+	android:exported
+		ADDED from [com.google.android.play:core-common:2.0.2] C:\Users\vivek\.gradle\caches\transforms-3\ae1d4bf6bd46b26e20397fc31dc997e3\transformed\jetified-core-common-2.0.2\AndroidManifest.xml:16:13-37
+	android:theme
+		ADDED from [com.google.android.play:core-common:2.0.2] C:\Users\vivek\.gradle\caches\transforms-3\ae1d4bf6bd46b26e20397fc31dc997e3\transformed\jetified-core-common-2.0.2\AndroidManifest.xml:18:13-62
+	android:name
+		ADDED from [com.google.android.play:core-common:2.0.2] C:\Users\vivek\.gradle\caches\transforms-3\ae1d4bf6bd46b26e20397fc31dc997e3\transformed\jetified-core-common-2.0.2\AndroidManifest.xml:15:13-93

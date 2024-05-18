@@ -1,19 +1,8 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.arj.whatsapp_sticker_maker">
-   <application
-
-        android:label="Sticker Maker"
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application
+        android:label="sticker_maker"
         android:name="${applicationName}"
-        android:icon="@mipmap/launcher_icon">
-                <provider
-            android:name="androidx.core.content.FileProvider"
-            android:authorities="${applicationId}.provider"
-            android:grantUriPermissions="true"
-            android:exported="false">
-            <meta-data
-                android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/filepaths" />
-        </provider>
+        android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -40,9 +29,5 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
-            <activity
-    android:name="com.yalantis.ucrop.UCropActivity"
-    android:screenOrientation="portrait"
-    android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
     </application>
 </manifest>

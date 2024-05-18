@@ -1,15 +1,16 @@
 import 'dart:developer';
+import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_image_compress/flutter_image_compress.dart';
+import 'package:flutter_photo_editor/flutter_photo_editor.dart';
 import 'package:get/get.dart';
 import 'dart:io' as Io;
 import 'package:image/image.dart' as I;
-import 'package:image_cropper/image_cropper.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:whatsapp_sticker_maker/home/widget/home_widget.dart';
-
 import '../../value/my_str.dart';
 
 class HomeViewSetImageController extends GetxController {
@@ -28,10 +29,46 @@ class HomeViewSetImageController extends GetxController {
   List<String> sticker = [];
   TextEditingController textEditingController = TextEditingController();
 
-  picImage(source, int inedx, context) async {
+  Future<String> getApplicationDocumentsDirectoryPath() async {
+    final directory = await getApplicationDocumentsDirectory();
+    return directory.path;
+  }
+
+  // Method to save image to local file system
+  Future<void> saveImageToLocalFile(XFile imageFile, int index) async {
+    final appDir = await getApplicationDocumentsDirectoryPath();
+    final fileName = 'image_$index.png'; // You can customize the file name
+
+    final localImagePath = '$appDir/$fileName';
+
+    await Io.File(imageFile.path!).copy(localImagePath);
+
+    images[index] = Io.File(localImagePath);
+  }
+
+  // Method to load images from local file system
+  Future<void> loadImagesFromLocalFiles() async {
+    final appDir = await getApplicationDocumentsDirectoryPath();
+
+    for (int i = 0; i < images.length; i++) {
+      final fileName =
+          'image_$i.png'; // Assuming you used the same naming convention
+      final localImagePath = '$appDir/$fileName';
+
+      if (Io.File(localImagePath).existsSync()) {
+        images[i] = Io.File(localImagePath);
+      }
+    }
+  }
+
+  picImage(
+    source,
+    int index,
+    context,
+  ) async {
     w8forImage.value = true;
 
-    if (images[inedx].path.isNotEmpty) {
+    if (images[index].path.isNotEmpty) {
       checkImagePath.value = true;
     }
 
@@ -54,19 +91,9 @@ class HomeViewSetImageController extends GetxController {
 
       return;
     }
-    CroppedFile? cropped = await ImageCropper().cropImage(
-        sourcePath: image.path,
-        compressFormat: ImageCompressFormat.png,
-        maxHeight: 512,
-        maxWidth: 512,
-        aspectRatio: const CropAspectRatio(ratioX: 1, ratioY: 1));
-    if (cropped == null) {
-      w8forImage.value = false;
-      return;
-    }
-    final imageRec = Io.File(cropped.path);
 
-    images[inedx] = imageRec;
+    await saveImageToLocalFile(XFile(image.path!), index);
+
     if (!checkImagePath.value && !isDelete.value) {
       selectImage.value++;
       if (selectImage.value > 2 && images.length < 9) {
@@ -76,19 +103,81 @@ class HomeViewSetImageController extends GetxController {
 
     checkImagePath.value = isDelete.value = false;
     Future.delayed(const Duration(seconds: 1)).then((value) async {
-      sticker.add(await compressIamgeToWebp(images[inedx]));
+      String editedImagePath = await _editAndSaveImage(index);
+
+      if (editedImagePath.isNotEmpty) {
+        sticker.add(await compressIamgeToWebp(Io.File(editedImagePath)));
+      }
+
       w8forImage.value = false;
     });
+  }
+
+  Future<String> _editAndSaveImage(int index) async {
+    if (images[index].path.isNotEmpty) {
+      bool isEditingComplete =
+          await FlutterPhotoEditor().editImage(images[index].path);
+
+      if (isEditingComplete) {
+        String editedImagePath =
+            images[index].path; // Get the edited image path
+
+        // Generate a unique filename for the edited image
+        final appDocDir = await getApplicationDocumentsDirectory();
+        final fileName =
+            "edited_image_${DateTime.now().millisecondsSinceEpoch}.webp";
+        final savedImagePath = "${appDocDir.path}/$fileName";
+
+        // Save the edited image to a new file
+        await File(editedImagePath).copy(savedImagePath);
+
+        print("Saved edited image at: $savedImagePath");
+
+        // Update the path of the edited image
+        images[index] = Io.File(savedImagePath);
+        update(); // Update the UI
+
+        return savedImagePath; // Return the edited image path
+      } else {
+        print("Error editing image");
+        return "";
+      }
+    }
+    return "";
+  }
+
+  Future<void> _saveEditedImage(String editedImagePath, int index) async {
+    try {
+      final appDocDir = await getApplicationDocumentsDirectory();
+      final fileName = "edited_image_$index.webp";
+      final savedImagePath = "${appDocDir.path}/$fileName";
+
+      await File(editedImagePath).copy(savedImagePath);
+
+      print("Saved edited image at: $savedImagePath");
+
+      // Update the path of the edited image
+      images[index] = Io.File(savedImagePath);
+      update(); // Update the UI
+
+      // Perform any additional actions after saving the edited image
+      // For example, navigate to the next screen or update UI
+    } catch (e) {
+      print("Error saving edited image: $e");
+    }
+  }
+
+  void updateEditedImagePath(String editedImagePath, int index) {
+    if (editedImagePath.isNotEmpty) {
+      images[index] = Io.File(editedImagePath);
+      update(); // Notify the UI that the data has changed
+    }
   }
 
   compressIamgeToWebp(Io.File file) async {
     try {
       if (mimType == "gif") {}
 
-      //   w8forImage.value = false;
-
-      //   return webpImage.path;
-      // } else {
       final tmpDir = (await getApplicationDocumentsDirectory()).path;
 
       var reSize = await reSizeImage(512, file);
@@ -108,16 +197,14 @@ class HomeViewSetImageController extends GetxController {
         log("null");
         w8forImage.value = false;
       } else {
-        Io.File webpImage = FileImage(result).file;
+        Io.File webpImage = Io.File(result.path);
         var decodedImage =
             await decodeImageFromList(webpImage.readAsBytesSync());
         log(decodedImage.width.toString());
         log(decodedImage.height.toString());
         return webpImage.path;
       }
-    }
-    //}
-    catch (e) {
+    } catch (e) {
       log(e.toString());
       w8forImage.value = false;
     }
@@ -133,23 +220,10 @@ class HomeViewSetImageController extends GetxController {
     );
 
     Io.File fileResultTo512;
-    // Save the thumbnail as a PNG.
 
-    // if (mimType == "gif") {
-    //   fileResultTo512 = await Io.File(
-    //     '$tmpDir/${DateTime.now().millisecondsSinceEpoch}.webp',
-    //   ).writeAsBytes(I.encodeGif(thumbnail));
-
-    //   if (kDebugMode) {
-    //     print(
-    //         "size this ....................................!!!${fileResultTo512.lengthSync() / 1000}");
-    //   }
-    // }
-    // else {
     fileResultTo512 =
         Io.File('$tmpDir/${DateTime.now().millisecondsSinceEpoch}.png')
           ..writeAsBytesSync(I.encodePng(thumbnail));
-    // }
 
     return fileResultTo512;
   }
